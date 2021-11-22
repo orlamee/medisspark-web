@@ -82,7 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                <h1>Swift Medispark</h1>
+                Swift Medispark
                 </div>
 
                 <div class="links">

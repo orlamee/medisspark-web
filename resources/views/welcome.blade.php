@@ -8,7 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="/css/app.css">
+        <script src="/js/app.js"></script>
         <!-- Styles -->
         <style>
             html, body {
@@ -81,7 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                <h1>Swift Medispark</h1>
                 </div>
 
                 <div class="links">

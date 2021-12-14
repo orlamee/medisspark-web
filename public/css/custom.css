@@ -1,0 +1,198 @@
+/* Loader Styles start here */
+.loader-wrapper {
+    --line-width: 5px;
+    --curtain-color: #f1faee;
+    --outer-line-color: #a8dadc;
+    --middle-line-color: #457b9d;
+    --inner-line-color: #1d3557;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
+}
+  
+.loader {
+    display:block;
+    position: relative;
+    top:50%;
+    left:50%;
+  /*   transform: translate(-50%, -50%); */
+    width:150px;
+    height:150px;
+    margin:-75px 0 0 -75px;
+    border:var(--line-width) solid transparent;
+    border-top-color: var(--outer-line-color);
+    border-radius:100%;
+    -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+    z-index:1001;
+}
+  
+.loader:before {
+    content:"";
+    position: absolute;
+    top:4px;
+    left:4px;
+    right:4px;
+    bottom:4px;
+    border:var(--line-width) solid transparent;
+    border-top-color: var(--inner-line-color);
+    border-radius:100%;
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+}
+  
+.loader:after {
+    content:"";
+    position: absolute;
+    top:14px;
+    left:14px;
+    right:14px;
+    bottom:14px;
+    border:var(--line-width) solid transparent;
+    border-top-color: var(--middle-line-color);
+    border-radius:100%;
+    -webkit-animation: spin 1.5s linear infinite;
+            animation: spin 1.5s linear infinite;
+}
+  
+@-webkit-keyframes spin {
+    0%   { 
+      -webkit-transform: rotate(0deg); 
+        -ms-transform: rotate(0deg); 
+            transform: rotate(0deg);
+    }
+    100% { 
+      -webkit-transform: rotate(360deg); 
+        -ms-transform: rotate(360deg); 
+            transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   { 
+      -webkit-transform: rotate(0deg); 
+        -ms-transform: rotate(0deg); 
+            transform: rotate(0deg);
+    }
+    100% { 
+      -webkit-transform: rotate(360deg); 
+        -ms-transform: rotate(360deg); 
+            transform: rotate(360deg);
+    }
+}
+  
+.loader-wrapper .loader-section {
+    position:fixed;
+    top:0;
+    background:var(--curtain-color);
+    width:51%;
+    height:100%;
+    z-index:1000;
+}
+  
+.loader-wrapper .loader-section.section-left {
+    left:0
+}
+.loader-wrapper .loader-section.section-right {
+    right:0;
+}
+  
+/* Loaded Styles */ 
+.loaded .loader-wrapper .loader-section.section-left {
+    transform: translateX(-100%);
+    transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+}
+.loaded .loader-wrapper .loader-section.section-right {
+    transform: translateX(100%);
+    transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+}
+.loaded .loader {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.loaded .loader-wrapper {
+    visibility: hidden;
+    transform:translateY(-100%);
+    transition: all .3s 1s ease-out;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-family: "Nunito", sans-serif!important;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 22px 10px!important;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+body {
+    font-family: "Nunito", sans-serif!important;
+}
+
+.get-started-btn {
+    color: #fff!important;
+    background-color: #26498a!important;
+    border-color: #26498a!important;
+    border: 1px!important;
+    border-radius: 10px!important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px!important;
+}
+
+.banner-section {
+    margin-top: 140px!important;
+    background-color: #fff;
+}
+
+.form-control {
+    background-color: #F7FAFC!important;
+    background-clip: padding-box!important;
+    border: 1px solid #F7FAFC!important;
+    border-radius: 10px!important;
+}
+
+.container-fluid {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.clients-logo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-section {
+    background-color: #F4FAFF;
+    padding: 90px 0px;
+}
+
+.sub-text {
+    color: #079aa4;
+}
+
+.color-text {
+    color: #204487;
+}
+
+.about-heading {
+    font-size: 50px;
+    color: #303030;
+}
+
+.text-about {
+    padding: 70px 30px!important;
+}
+
+.product-section {
+    background-color: #fff;
+    padding: 90px 0px;
+}

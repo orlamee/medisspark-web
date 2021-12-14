@@ -54,7 +54,7 @@
 <div class="container-fluid about-section">
     <div class="row">
         <div class="col-md-6 img-about">
-            <img src="/img/about.svg" class="img-fluid" alt="">
+            <img src="/img/about.png" class="img-fluid" alt="Swift Medispark">
         </div>
         <div class="col-md-6 text-about">
             <h1 class="font-weight-bolder about-heading">Powering the future<br>of <span class="sub-text">African Health</span></h1>

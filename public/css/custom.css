@@ -171,6 +171,11 @@ body {
     padding-bottom: 50px;
 }
 
+.awards-logo {
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
 .about-section {
     background-color: #F4FAFF;
     padding: 90px 0px;
@@ -196,4 +201,130 @@ body {
 .product-section {
     background-color: #fff;
     padding: 90px 0px;
+}
+
+.footer-section {
+    padding: 50px 0px;
+}
+
+.newsletter-section {
+    background-color: #0a94a8;
+    padding: 120px 0px;
+    background-image: linear-gradient(
+83deg, #0898a5, #2d4f8e);
+    border-radius: 30px;
+}
+
+.newsletter-text {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.newsletter-form {
+    padding-top: 50px;
+}
+
+div.parent { 
+    display : table;
+    padding : 5px; 
+    width   : 100%;
+  /* you can change/remove margin */
+    margin   :5px 0; 
+  }
+div.product-text { 
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 20px;
+}
+div.parent .img {
+    vertical-align: middle;
+    display: table-cell;
+    padding-right: 5px;
+    width: 100px; /* you can change width */
+}
+div.img img {
+    width: 100%;
+    vertical-align: middle;
+    border: 2px solid #e5f6f5;
+    border-radius: 4px;
+}
+
+.heading {
+    color: #00A69C;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.icons-clients {
+    font-size: 65px;
+    color: #6E7071;
+}
+
+.icon-text {
+    color: #00a6a9;
+    font-size: 50px;
+    padding-bottom: 7px;
+}
+
+.testimonial-one {
+    padding: 50px 30px;
+    background: rgba(0, 166, 156, 0.1);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.testimonial-two {
+    padding: 50px 30px;
+    background: rgba(27, 118, 186, 0.1);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.testimonial-text {
+    color: #000;
+    font-size: 15px!important;
+    margin: 28px 0px;
+    line-height: 23px;
+    padding: 0px 40px 0px 0px;
+}
+
+.author {
+    color: #000;
+    font-size: 14px!important;
+    margin-bottom: 0px;
+}
+
+.company {
+    font-size: 14px!important;
+}
+
+.blog-section {
+    padding-bottom: 90px;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.card-title {
+    color: #000;
+    font-weight: 600;
+}
+
+.card-body {
+    flex: 1 1 auto!important;
+    padding: 16px 16px 43px 16px!important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px!important;
+    border-radius: 0px 0px 30px 30px;
+}
+footer {
+    padding-top: 90px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
 }

@@ -328,3 +328,34 @@ footer {
     right: 25px;
     display: none;
 }
+
+.mega-menu-text {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.mega-div {
+    border: 1px solid #fff!important;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.menu-logo {
+    width: 20px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 0px!important;
+}
+
+.logo-menu {
+    padding-left: 10px;
+}
+
+.carousel-indicators {
+    bottom: -55px!important;
+}

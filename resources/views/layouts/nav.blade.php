@@ -17,6 +17,28 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <script src="/js/app.js"></script>
         <script src="/js/loader.js"></script>
+        <style type="text/css">
+		.dropdown-large{ padding:1rem; }
+
+		/* ============ desktop view ============ */
+		@media all and (min-width: 992px) {
+			.dropdown-large{min-width:500px;}
+		}	
+		/* ============ desktop view .end// ============ */
+	</style>
+
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function(){
+	        /////// Prevent closing from click inside dropdown
+	        document.querySelectorAll('.dropdown-menu').forEach(function(element){
+	        	element.addEventListener('click', function (e) {
+	        		e.stopPropagation();
+	        	});
+	        })
+	    }); 
+		// DOMContentLoaded  end
+	</script>
+
     </head>
     <body>
         <div class="loader-wrapper">
@@ -27,7 +49,7 @@
         <div class="m-4">
             <nav class="navbar fixed-top navbar-expand-lg navbar-light">
                 <div class="container">
-                    <a href="#" class="navbar-brand">
+                    <a href="/" class="navbar-brand">
                         <img src="/img/medispark-logo.png" height="28" alt="Swift Medispark">
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -35,14 +57,56 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="#" class="nav-item nav-link active font-weight-bold">About</a>
-                            <a href="#" class="nav-item nav-link dropdown-toggle ml-3 font-weight-bold" data-bs-toggle="dropdown" role="button" aria-expanded="false">Products</a>
-                            <!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a> -->
+                            <a href="/about" class="nav-item nav-link font-weight-bold ml-3">About</a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-item nav-link dropdown-toggle ml-3 font-weight-bold" data-bs-toggle="dropdown">Products</a>
+                                <div class="dropdown-menu dropdown-large mega-div">
+                                    <div class="row g-3">
+                                        <div class="col-6">
+                                            <div class="flex-container">
+                                                <img src="/img/relay-logo.png" alt="" class="menu-logo img-fluid">
+                                                <div class="logo-menu">
+                                                  <h6 class="title">Relay</h6>
+                                                  <p class="mega-menu-text">Claim submission, Auto-vetting</p>
+                                                </div>
+                                            </div> 
+                                        </div><!-- end col-3 -->
+                                        <div class="col-6">
+                                            <div class="flex-container">
+                                                <img src="/img/refill.png" alt="" width="11px" class="img-fluid">
+                                                <div class="logo-menu">
+                                                  <h6 class="title">Refill</h6>
+                                                  <p class="mega-menu-text">Medication refills, Virtual consultations</p>
+                                                </div>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                        <div class="col-6">
+                                            <div class="flex-container">
+                                                <img src="/img/refer.png" alt="" class="menu-logo img-fluid">
+                                                <div class="logo-menu">
+                                                  <h6 class="title">Refer</h6>
+                                                  <p class="mega-menu-text">Referral services, health record sharing</p>
+                                                </div>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                        <div class="col-6">
+                                            <div class="flex-container">
+                                                <img src="/img/recount.png" alt="" class="menu-logo img-fluid">
+                                                <div class="logo-menu">
+                                                  <h6 class="title">Recount</h6>
+                                                  <p class="mega-menu-text">Clinical trials, drug development research</p>
+                                                </div>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                    </div><!-- end row -->
+                                </div> 
+                            </li>
                             <a href="#" class="nav-item nav-link ml-3 font-weight-bold">FAQ's</a>
                             <a href="#" class="nav-item nav-link ml-3 font-weight-bold" tabindex="-1">Contact</a>
                         </div>
-                        <div class="navbar-nav ms-auto">
+                        <div class="navbar-nav ms-auto d-flex align-items-center">
                             <a href="#" class="btn get-started-btn">Get Started</a>
+                            <!-- <button type="button" class="btn btn-primary me-3">Sign up for free</button> -->
                         </div>
                     </div>
                 </div>

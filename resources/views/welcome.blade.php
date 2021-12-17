@@ -165,7 +165,104 @@
 <div class="container blog-section">
   <h1 class="font-weight-bolder about-heading">Medispark in the news</h1>
   <div class="row pt-5">
-    <div class="col-md-3 mb-3">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="2" class="bg-secondary"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-one.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div> 
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-two.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>  
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-three.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>  
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-four.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-one.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-two.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-three.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-four.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title pt-2">The future of Medicine in Africa and beyond</h6>
+                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>        
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-md-3 mb-3">
       <div class="card">
         <img src="/img/blog-one.png" class="img-fluid" alt="">
         <div class="card-body">
@@ -174,8 +271,8 @@
           <a href="#">Read More</a>
         </div>
       </div>
-    </div>
-    <div class="col-md-3 mb-3">
+    </div> -->
+    <!-- <div class="col-md-3 mb-3">
       <div class="card">
         <img src="/img/blog-two.png" class="img-fluid" alt="">
         <div class="card-body">
@@ -184,8 +281,8 @@
           <a href="#">Read More</a>
         </div>
       </div>
-    </div>
-    <div class="col-md-3 mb-3">
+    </div> -->
+    <!-- <div class="col-md-3 mb-3">
       <div class="card">
         <img src="/img/blog-three.png" class="img-fluid" alt="">
         <div class="card-body">
@@ -194,8 +291,8 @@
           <a href="#">Read More</a>
         </div>
       </div>
-    </div>
-    <div class="col-md-3 mb-3">
+    </div> -->
+    <!-- <div class="col-md-3 mb-3">
       <div class="card">
         <img src="/img/blog-four.png" class="img-fluid" alt="">
         <div class="card-body">
@@ -204,7 +301,7 @@
           <a href="#">Read More</a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 <div class="container awards-logo animate__animated animate__slideInLeft animate__slow">

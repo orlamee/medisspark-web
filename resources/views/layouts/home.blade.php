@@ -9,12 +9,17 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
-        <link rel="icon" href="{{ url('img/favicon.png') }}">
-        <link rel="stylesheet" href="/css/custom.css">
+        
         <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="icon" href="{{ url('img/favicon.png') }}">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="/js/app.js"></script>
         <script src="/js/loader.js"></script>
         <style type="text/css">
@@ -38,6 +43,24 @@
 	    }); 
 		// DOMContentLoaded  end
 	</script>
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
+            });
+        });
+    </script>
 
     </head>
     <body>
@@ -101,8 +124,8 @@
                                     </div><!-- end row -->
                                 </div> 
                             </li>
-                            <a href="#" class="nav-item nav-link ml-3 font-weight-bold">FAQ's</a>
-                            <a href="#" class="nav-item nav-link ml-3 font-weight-bold" tabindex="-1">Contact</a>
+                            <a href="/faq" class="nav-item nav-link ml-3 font-weight-bold">FAQ's</a>
+                            <a href="/contact" class="nav-item nav-link ml-3 font-weight-bold" tabindex="-1">Contact</a>
                         </div>
                         <div class="navbar-nav ms-auto d-flex align-items-center">
                             <a href="#" class="btn get-started-btn">Get Started</a>
@@ -113,7 +136,7 @@
             </nav> 
         </div>
         <div class="container-fluid">
-            @yield ('banner')
+            @yield ('content')
         </div>
     </body>
 </html>

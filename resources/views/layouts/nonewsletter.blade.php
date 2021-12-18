@@ -1,26 +1,3 @@
-<div class="container-fluid newsletter-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="text-white newsletter-text mb-3">Join the <br>ecosystem now</h2>
-                <h6 class="text-white">Trust MediSpark’s APIs and ecosystem to connect with your partners and customers.</h6>
-            </div>
-            <div class="col-md-6 newsletter-form">
-                <form class="row row-cols-lg-auto g-3 align-items-center">
-                    <div class="col-7">
-                        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
-                        <div class="input-group">
-                            <input type="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter your email address" required>
-                        </div>
-                    </div>
-                    <div class="col-5">
-                        <button type="submit" class="btn get-started-btn">Get Started</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 <section class="footer-section">
     <div class="container text-left text-md-start mt-5">
         <div class="row mt-3">

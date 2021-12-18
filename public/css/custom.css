@@ -178,7 +178,7 @@ body {
 
 .about-section {
     background-color: #F4FAFF;
-    padding: 90px 0px;
+    padding: 90px 40px!important;
 }
 
 .sub-text {
@@ -192,6 +192,7 @@ body {
 .about-heading {
     font-size: 50px;
     color: #303030;
+    line-height: 65px;
 }
 
 .text-about {
@@ -358,4 +359,110 @@ footer {
 
 .carousel-indicators {
     bottom: -55px!important;
+}
+
+.about-jumbotron {
+    padding: 100px 10px;
+    background-color: #F4FAFF;
+    margin-top: 144px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+
+.arrow-down {
+    color: #1B76BA;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.spacing {
+    padding: 30px 0px;
+}
+
+.gallery {
+    padding-bottom: 100px;
+}
+
+.what-we-do {
+    background-color: #F4FAFF;
+    padding: 90px;
+    margin-top: 45px!important;
+}
+
+.values {
+    padding: 60px 40px 100px 40px;
+    background-color: rgba(0, 166, 156, 0.1);
+    border-radius: 30px;
+}
+
+.values-two {
+    padding: 60px 40px 100px 40px;
+    background-color:#1B76BA1A;
+    border-radius: 30px;
+}
+
+.values-three {
+    padding: 60px 40px 100px 40px;
+    background-color: rgba(51, 51, 51, 0.1);;
+    border-radius: 30px;
+}
+
+.img-footer {
+    padding: 70px 10px;
+}
+
+.contact-icon {
+    color: #246294;
+    background-color: #E8F1F8;
+    padding: 1px 7px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.contact-icon-three {
+    color: #246294;
+    background-color: #E5F6F5;
+    padding: 1px 7px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.spacing-contact {
+    padding-bottom: 56px;
+}
+
+.contact-menu {
+    padding-left: 34px;
+}
+
+.title-list {
+    margin-bottom: 0px!important;
+    font-size: 14px!important;
+}
+
+.colored-btn {
+    background-color: #00A69C!important;
+}
+
+.form-bg {
+    background-color: #F8F8F9;
+    padding: 60px  40px;
+    border-radius: 30px;
+}
+
+.contact-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-control-contact {
+    background-color: #ffffff!important;
+    background-clip: padding-box!important;
+    border: 1px solid #ffffff!important;
+    border-radius: 5px!important;
+    font-size: 13px!important;
+}
+
+.contact-section {
+    margin-bottom: 70px;
 }

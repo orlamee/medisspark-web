@@ -385,6 +385,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 17px!important;
   color: #6b778c;
+  line-height: 25px!important;
 }
 
 .lead {

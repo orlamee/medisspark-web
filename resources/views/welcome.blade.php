@@ -1,30 +1,30 @@
-@extends('layouts.nav')
+@extends('layouts.home')
 
-@section('banner')
+@section('content')
 <div class="container">
-    <div class="row banner-section">
-        <div class="col-md-6">
-          <h1 class="font-weight-bolder about-heading animate__animated animate__slideInDown animate__slow">Digital infrastructure<br>for <span class="color-text">healthcare</span></h1>
-          <!-- <img src="/img/medispark-headline.svg" class="img-fluid" alt="Swift Medispark"> -->
-          <h6 class="pt-5">Leading health companies trust MediSpark’s APIs and ecosystem to connect with their partners and customers.</h6>
-          <div class="mt-4 mb-4">
-            <form class="row row-cols-lg-auto g-3 align-items-center">
-              <div class="col-7">
-                  <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
-                  <div class="input-group">
-                    <input type="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter your email address" required>
-                  </div>
+  <div class="row banner-section">
+    <div class="col-md-6">
+      <h1 class="font-weight-bolder about-heading animate__animated animate__slideInDown animate__slow">Digital infrastructure<br>for <span class="color-text">healthcare</span></h1>
+      <!-- <img src="/img/medispark-headline.svg" class="img-fluid" alt="Swift Medispark"> -->
+      <h6 class="pt-5">Leading health companies trust MediSpark’s APIs and ecosystem to connect with their partners and customers.</h6>
+      <div class="mt-4 mb-4">
+        <form class="row row-cols-lg-auto g-3 align-items-center">
+          <div class="col-7">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+              <div class="input-group">
+                <input type="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter your email address" required>
               </div>
-              <div class="col-5">
-                  <button type="submit" class="btn get-started-btn">Get Started</button>
-              </div>
-            </form>
           </div>
-        </div>
-        <div class="col-md-6 animate__animated animate__slideInRight">
-           <img src="/img/banner.svg" class="img-fluid" alt="Swift Medispark">
-        </div>
+          <div class="col-5">
+              <button type="submit" class="btn get-started-btn">Get Started</button>
+          </div>
+        </form>
+      </div>
     </div>
+    <div class="col-md-6 animate__animated animate__slideInRight">
+      <img src="/img/banner.svg" class="img-fluid" alt="Swift Medispark">
+    </div>
+  </div>
 </div>
 <div class="container-fluid mt-4 mb-4">
   <img src="/img/divider.svg" class="bg" alt="Swift Medispark">
@@ -331,6 +331,6 @@
   <img src="/img/footer-divider.png" class="bg" alt="Swift Medispark">
 </div>
 <footer class="text-left text-lg-start text-muted">
-    @include('layouts.footer')
+  @include('layouts.footer')
 </footer>
 @endsection

@@ -33,16 +33,16 @@
                     Company
                 </h6>
                 <p>
-                    <a href="#!" class="text-reset">About</a>
+                    <a href="/about" class="text-reset">About</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Contact</a>
+                    <a href="/contact" class="text-reset">Contact</a>
                 </p>
                 <p>
                     <a href="#!" class="text-reset">Careers</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">FAQ'S</a>
+                    <a href="/faq" class="text-reset">FAQ'S</a>
                 </p>
             </div>
             <!-- Grid column -->

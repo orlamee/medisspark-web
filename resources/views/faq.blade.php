@@ -5,12 +5,12 @@
       <div class="about-jumbotron">
        <h1 class="font-weight-bolder about-heading">Frequently Asked Questions</h1>
        <h6 class="spacing">Leading health companies trust MediSpark’s APIs and <br>ecosystem to connect with their partners and customers.</h6> 
-       <a href="#about"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
+       <a href="#faq"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
       </div>
     </div>
   </div>
 </div>
-<div class="container mt-5">
+<div class="container mt-5" id="faq">
   <div class="col-12"><hr></div>
   <div class="row faq">
     <div class="col-md-4 vl">

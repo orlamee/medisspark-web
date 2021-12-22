@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="text-white newsletter-text mb-3">Join the <br>ecosystem now</h2>
-                <h6 class="text-white">Trust MediSpark’s APIs and ecosystem to connect with your partners and customers.</h6>
+                <h1 class="text-white newsletter-text mb-3">Join the <br>ecosystem now</h1>
+                <h6 class="text-white banner-text">Trust MediSpark’s APIs and ecosystem to connect with your partners and customers.</h6>
             </div>
             <div class="col-md-6 newsletter-form">
-                <form class="row row-cols-lg-auto g-3 align-items-center">
+                <form class="row g-3 align-items-center">
                     <div class="col-7">
                         <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
                         <div class="input-group">
@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-                <h6 class="fw-bold mb-4">
+                <h6 class="fw-bold mb-4 footer-title">
                     Company
                 </h6>
                 <p>
@@ -50,17 +50,20 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
-                <h6 class="fw-bold mb-4">
+                <h6 class="fw-bold mb-4 footer-title">
                     Products
                 </h6>
                 <p>
-                    <a href="#!" class="text-reset">Relay</a>
+                    <a href="#products" class="text-reset">Relay</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Stats</a>
+                    <a href="#products" class="text-reset">Recount</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Refill</a>
+                    <a href="#products" class="text-reset">Refill</a>
+                </p>
+                <p>
+                    <a href="#products" class="text-reset">Refer</a>
                 </p>
                 <p>
                     <a href="#!" class="text-reset">Loans</a>
@@ -74,7 +77,7 @@
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <!-- Links -->
-                <h6 class="fw-bold mb-4">
+                <h6 class="fw-bold mb-4 footer-title">
                     Socials
                 </h6>
                 <p>
@@ -89,9 +92,7 @@
                 <p>
                     <a href="#!" class="text-reset">Linkedin</a>
                 </p>
-                <p>
-                    <a href="#!" class="text-reset">Medium</a>
-                </p>
+                
             </div>
         </div>
       <!-- Grid row -->
@@ -102,7 +103,7 @@
     <div class="container">
         <div class="row mb-4 mt-4">
             <div class="col">
-              © 2021 Medispark
+             <p>© 2021 Medispark</p> 
             </div>
         </div>
     </div>

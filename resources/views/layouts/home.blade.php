@@ -7,8 +7,11 @@
         <title>Swift MediSpark</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
+        <!-- <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'> -->
+        <link href="http://fonts.cdnfonts.com/css/sen" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet"> -->
+        <!-- <link href="https://db.onlinewebfonts.com/c/139f801bd31bd849b3b9b8fb1962940e?family=Axiforma+Medium" rel="stylesheet" type="text/css"/> -->
+        <link href="http://fonts.cdnfonts.com/css/axiforma" rel="stylesheet">
         
         <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/custom.css">
@@ -79,17 +82,17 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-auto">
-                            <a href="/about" class="nav-item nav-link font-weight-bold ml-3">About</a>
+                        <div class="navbar-nav mx-auto mobile-nav">
+                            <a href="/about" class="nav-item nav-link font-weight-bolder menu-left">About</a>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-item nav-link dropdown-toggle ml-3 font-weight-bold" data-bs-toggle="dropdown">Products</a>
+                                <a href="#" class="nav-item nav-link dropdown-toggle menu-left font-weight-bold" data-bs-toggle="dropdown">Products</a>
                                 <div class="dropdown-menu dropdown-large mega-div">
                                     <div class="row g-3">
                                         <div class="col-6">
                                             <div class="flex-container">
                                                 <img src="/img/relay-logo.png" alt="" class="menu-logo img-fluid">
                                                 <div class="logo-menu">
-                                                  <h6 class="title">Relay</h6>
+                                                  <h6 class="title"><a href="#products">Relay</a></h6>
                                                   <p class="mega-menu-text">Claim submission, Auto-vetting</p>
                                                 </div>
                                             </div> 
@@ -98,7 +101,7 @@
                                             <div class="flex-container">
                                                 <img src="/img/refill.png" alt="" width="11px" class="img-fluid">
                                                 <div class="logo-menu">
-                                                  <h6 class="title">Refill</h6>
+                                                <h6 class="title"><a href="#products">Refill</a></h6>
                                                   <p class="mega-menu-text">Medication refills, Virtual consultations</p>
                                                 </div>
                                             </div>
@@ -107,7 +110,7 @@
                                             <div class="flex-container">
                                                 <img src="/img/refer.png" alt="" class="menu-logo img-fluid">
                                                 <div class="logo-menu">
-                                                  <h6 class="title">Refer</h6>
+                                                <h6 class="title"><a href="#products">Refer</a></h6>
                                                   <p class="mega-menu-text">Referral services, health record sharing</p>
                                                 </div>
                                             </div>
@@ -116,7 +119,7 @@
                                             <div class="flex-container">
                                                 <img src="/img/recount.png" alt="" class="menu-logo img-fluid">
                                                 <div class="logo-menu">
-                                                  <h6 class="title">Recount</h6>
+                                                <h6 class="title"><a href="#products">Recount</a></h6>
                                                   <p class="mega-menu-text">Clinical trials, drug development research</p>
                                                 </div>
                                             </div>
@@ -124,18 +127,17 @@
                                     </div><!-- end row -->
                                 </div> 
                             </li>
-                            <a href="/faq" class="nav-item nav-link ml-3 font-weight-bold">FAQ's</a>
-                            <a href="/contact" class="nav-item nav-link ml-3 font-weight-bold" tabindex="-1">Contact</a>
+                            <a href="/faq" class="nav-item nav-link font-weight-bold menu-left">FAQ's</a>
+                            <a href="/contact" class="nav-item nav-link menu-left font-weight-bold" tabindex="-1">Contact</a>
                         </div>
                         <div class="navbar-nav ms-auto d-flex align-items-center">
                             <a href="#" class="btn get-started-btn">Get Started</a>
-                            <!-- <button type="button" class="btn btn-primary me-3">Sign up for free</button> -->
                         </div>
                     </div>
                 </div>
             </nav> 
         </div>
-        <div class="container-fluid">
+        <div>
             @yield ('content')
         </div>
     </body>

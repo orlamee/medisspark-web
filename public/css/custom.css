@@ -119,33 +119,73 @@
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0,0,0,.9);
-    font-family: "Nunito", sans-serif!important;
+    color: #333333;
+    font-family: "Axiforma", sans-serif!important;
 }
 
 .navbar {
     background-color: #fff;
     padding: 22px 10px!important;
-    border-bottom: 1px solid #f7f7f7;
+    /* border-bottom: 1px solid #f7f7f7; */
 }
 
-body {
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    font-size: 17px;
+    font-weight: 600!important;
+    font-family: "Axiforma", sans-serif!important;
+}
+
+@media only screen and (min-width: 768px){
+    .menu-left {
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .mobile-nav {
+        padding: 16px 0px!important;
+    }
+}
+
+p {
+    font-family: 'Sen', sans-serif!important;
+    font-size: 14px;
+}
+
+.faq-heading {
+    font-size: 24px!important;
+}
+
+/* body {
     font-family: "Nunito", sans-serif!important;
+} */
+
+.banner-text {
+    font-family: 'Sen', sans-serif!important;
+    font-size: 18px!important;
+    color: #333!important;
+    font-weight: 400!important;
 }
 
 .get-started-btn {
     color: #fff!important;
-    background-color: #26498a!important;
-    border-color: #26498a!important;
+    background-color: #1b76ba!important;
+    border-color: #1b76ba!important;
     border: 1px!important;
     border-radius: 10px!important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px!important;
+    font-family: "Axiforma", sans-serif!important;
 }
 
 .banner-section {
-    margin-top: 140px!important;
-    margin-bottom: 50px;
+    margin-top: 190px!important;
+    margin-bottom: 0px;
     background-color: #fff;
+}
+
+h6 {
+    font-weight: 400!important;
 }
 
 .form-control {
@@ -153,6 +193,10 @@ body {
     background-clip: padding-box!important;
     border: 1px solid #F7FAFC!important;
     border-radius: 10px!important;
+    /* font-family: "Axiforma", sans-serif!important; */
+    font-weight: 300!important;
+    font-size: 15px!important;
+    font-family: 'Sen', sans-serif!important;
 }
 
 .container-fluid {
@@ -178,7 +222,7 @@ body {
 
 .about-section {
     background-color: #F4FAFF;
-    padding: 90px 40px!important;
+    padding: 90px 50px!important;
 }
 
 .sub-text {
@@ -186,7 +230,7 @@ body {
 }
 
 .color-text {
-    color: #204487;
+    color: #1b76ba;
 }
 
 .about-heading {
@@ -201,7 +245,12 @@ body {
 
 .product-section {
     background-color: #fff;
-    padding: 90px 0px;
+    padding: 80px 0px 80px 0px;
+}
+
+.producttab-section {
+    background-color: #fff;
+    padding: 80px 0px 160px 0px;
 }
 
 .footer-section {
@@ -217,8 +266,8 @@ body {
 }
 
 .newsletter-text {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 56px;
+    line-height: 76px;
     font-weight: 700;
 }
 
@@ -236,25 +285,25 @@ div.parent {
 div.product-text { 
     vertical-align: middle;
     display: table-cell;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 div.parent .img {
     vertical-align: middle;
     display: table-cell;
-    padding-right: 5px;
-    width: 100px; /* you can change width */
+    padding-right: 0px;
+    width: 50px; /* you can change width */
 }
 div.img img {
-    width: 100%;
+    /* width: 100%; */
     vertical-align: middle;
-    border: 2px solid #e5f6f5;
+    /* border: 2px solid #e5f6f5; */
     border-radius: 4px;
 }
 
 .heading {
-    color: #00A69C;
-    font-weight: 600;
-    font-size: 20px;
+    /* color: #909294; */
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .icons-clients {
@@ -298,6 +347,7 @@ div.img img {
 
 .company {
     font-size: 14px!important;
+    font-family: "Axiforma", sans-serif!important;
 }
 
 .blog-section {
@@ -306,11 +356,15 @@ div.img img {
 
 .card-text {
     font-size: 13px;
+    font-family: "Axiforma", sans-serif!important;
+    color: #333;
 }
 
 .card-title {
-    color: #000;
-    font-weight: 600;
+    color: #333;
+    font-weight: 600!important;
+    font-size: 24px!important;
+    margin-bottom: 14px!important;
 }
 
 .card-body {
@@ -331,8 +385,9 @@ footer {
 }
 
 .mega-menu-text {
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Sen', sans-serif!important;
 }
 
 .mega-div {
@@ -351,6 +406,7 @@ footer {
 
 .title {
     margin-bottom: 0px!important;
+    color: #333!important;
 }
 
 .logo-menu {
@@ -370,7 +426,7 @@ footer {
 }
 
 .arrow-down {
-    color: #1B76BA;
+    color: #1b76ba;
     font-size: 40px;
     padding-top: 40px;
 }
@@ -390,19 +446,19 @@ footer {
 }
 
 .values {
-    padding: 60px 40px 100px 40px;
+    padding: 65px 40px;
     background-color: rgba(0, 166, 156, 0.1);
     border-radius: 30px;
 }
 
 .values-two {
-    padding: 60px 40px 100px 40px;
+    padding: 65px 40px;
     background-color:#1B76BA1A;
     border-radius: 30px;
 }
 
 .values-three {
-    padding: 60px 40px 100px 40px;
+    padding: 65px 40px;
     background-color: rgba(51, 51, 51, 0.1);;
     border-radius: 30px;
 }
@@ -438,6 +494,9 @@ footer {
 .title-list {
     margin-bottom: 0px!important;
     font-size: 14px!important;
+    color: #333;
+    font-family: 'Sen', sans-serif!important;
+
 }
 
 .colored-btn {
@@ -451,7 +510,7 @@ footer {
 }
 
 .contact-heading {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -539,7 +598,7 @@ footer {
 .accordion-heading {
     font-size: 15px;
     color: #000!important;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .panel-faq {
@@ -555,4 +614,66 @@ a.icon-faq:hover {
 a.icon-faq {
     color: #333;
     /* text-decoration: underline!important; */
+}
+
+.tab-text {
+    font-size: 15px;
+    color: #6E7071;
+    font-family: 'Sen', sans-serif!important;
+}
+
+@media only screen and (max-width: 768px){
+    .about-section {
+        background-color: #F4FAFF;
+        padding: 90px 10px!important;
+    } 
+}
+
+@media only screen and (max-width: 768px){
+    .producttab-section {
+        background-color: #fff;
+        padding: 80px 0px 160px 0px;
+    }
+}
+
+.tab-section {
+    margin-top: 50px!important;
+}
+
+@media only screen and (min-width: 768px){
+    .dropdown-large {
+        min-width: 699px!important;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 120%!important;
+        left: -174px!important;
+        margin-top: 0.125rem;
+    }
+}
+
+.footer-title {
+    color: #333;
+}
+
+
+.title a {
+    color: #333!important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+  
+
+@media only screen and (min-width: 768px){
+    .dropdown:hover>.dropdown-menu {
+        margin-left: -173px;
+    } 
+    .dropdown>.dropdown-toggle:active {
+        pointer-events: none;
+    } 
 }

@@ -4,7 +4,7 @@
     <div class="col-md-12 text-center">
       <div class="about-jumbotron">
        <h1 class="font-weight-bolder about-heading">Frequently Asked Questions</h1>
-       <h6 class="spacing">Leading health companies trust MediSpark’s APIs and <br>ecosystem to connect with their partners and customers.</h6> 
+       <h6 class="spacing banner-text">Leading health companies trust MediSpark’s APIs and <br>ecosystem to connect with their partners and customers.</h6> 
        <a href="#faq"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
       </div>
     </div>
@@ -15,14 +15,14 @@
   <div class="row faq">
     <div class="col-md-4 vl">
       <div class="faq-one">
-       <h2 class="font-weight-bold mb-4">Topics</h2>
-       <h6 class="mb-4"><a href="#" class="icon-faq"><i class="bi bi-dash"></i> What is MediSpark?</a> </h6>
-       <h6><a href="#" class="icon-faq"><i class="bi bi-dash"></i> About our products</a></h6>
+       <h2 class="font-weight-bold mb-4 faq-heading">Topics</h2>
+       <h6 class="mb-4 banner-text"><a href="#medispark" class="icon-faq"><i class="bi bi-dash"></i> What is MediSpark?</a> </h6>
+       <h6 class="mb-4 banner-text"><a href="#products" class="icon-faq"><i class="bi bi-dash"></i> About our products</a></h6>
       </div>
     </div>
     <div class="col-md-8">
       <div class="faq-two">
-        <h2 class="font-weight-bold mb-4">What is Medispark?</h2>
+        <h2 class="font-weight-bold faq-heading mb-4" id="medispark">What is Medispark?</h2>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="mt-5">
-          <h2 class="font-weight-bold mt-3 mb-4">About our products</h2>
+          <h2 class="font-weight-bold faq-heading mt-3 mb-4" id="products">About our products</h2>
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingFour">

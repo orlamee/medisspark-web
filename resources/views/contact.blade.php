@@ -5,7 +5,7 @@
     <div class="col-md-12 text-center">
       <div class="about-jumbotron">
        <h1 class="font-weight-bolder about-heading">Contact Us</h1>
-       <h6 class="spacing">Leading health companies trust MediSpark’s APIs and <br>ecosystem to connect with their partners and customers.</h6> 
+       <h6 class="spacing banner-text">Leading health companies trust MediSpark’s APIs and <br>ecosystem to connect with their partners and customers.</h6> 
        <a href="#contact"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
       </div>
     </div>
@@ -38,7 +38,7 @@
     <div class="col-md-5 text-center">
       <div class="form-bg">
         <h3 class="contact-heading text-muted">Send us a message</h3>
-        <p>We reply to all messages swiftly</p>
+        <h6 class="banner-text mb-3">We reply to all messages swiftly</h6>
         <form method="post" data-form-title="CONTACT US">
           <input type="hidden" data-form-email="true">
           <div class="form-group">

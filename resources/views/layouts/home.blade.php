@@ -7,22 +7,16 @@
         <title>Swift MediSpark</title>
 
         <!-- Fonts -->
-        <!-- <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'> -->
         <link href="http://fonts.cdnfonts.com/css/sen" rel="stylesheet">
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet"> -->
-        <!-- <link href="https://db.onlinewebfonts.com/c/139f801bd31bd849b3b9b8fb1962940e?family=Axiforma+Medium" rel="stylesheet" type="text/css"/> -->
         <link href="http://fonts.cdnfonts.com/css/axiforma" rel="stylesheet">
         
         <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/custom.css">
         <link rel="icon" href="{{ url('img/favicon.png') }}">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-        <!-- CSS only -->
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"> -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
-        <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="/js/app.js"></script>
         <script src="/js/loader.js"></script>
         <style type="text/css">
@@ -33,7 +27,7 @@
 			.dropdown-large{min-width:500px;}
 		}	
 		/* ============ desktop view .end// ============ */
-	</style>
+	    </style>
 
 	<script type="text/javascript">
 		document.addEventListener("DOMContentLoaded", function(){
@@ -44,7 +38,7 @@
 	        	});
 	        })
 	    }); 
-		// DOMContentLoaded  end
+		// DOContentLoaded  end
 	</script>
     <script>
       $(document).ready(function(){
@@ -92,7 +86,7 @@
                                             <div class="flex-container">
                                                 <img src="/img/relay-logo.png" alt="" class="menu-logo img-fluid">
                                                 <div class="logo-menu">
-                                                  <h6 class="title"><a href="#products">Relay</a></h6>
+                                                  <h6 class="title"><a href="/#products">Relay</a></h6>
                                                   <p class="mega-menu-text">Claim submission, Auto-vetting</p>
                                                 </div>
                                             </div> 
@@ -101,7 +95,7 @@
                                             <div class="flex-container">
                                                 <img src="/img/refill.png" alt="" width="11px" class="img-fluid">
                                                 <div class="logo-menu">
-                                                <h6 class="title"><a href="#products">Refill</a></h6>
+                                                <h6 class="title"><a href="/#products">Refill</a></h6>
                                                   <p class="mega-menu-text">Medication refills, Virtual consultations</p>
                                                 </div>
                                             </div>
@@ -110,7 +104,7 @@
                                             <div class="flex-container">
                                                 <img src="/img/refer.png" alt="" class="menu-logo img-fluid">
                                                 <div class="logo-menu">
-                                                <h6 class="title"><a href="#products">Refer</a></h6>
+                                                <h6 class="title"><a href="/#products">Refer</a></h6>
                                                   <p class="mega-menu-text">Referral services, health record sharing</p>
                                                 </div>
                                             </div>
@@ -119,7 +113,7 @@
                                             <div class="flex-container">
                                                 <img src="/img/recount.png" alt="" class="menu-logo img-fluid">
                                                 <div class="logo-menu">
-                                                <h6 class="title"><a href="#products">Recount</a></h6>
+                                                <h6 class="title"><a href="/#products">Recount</a></h6>
                                                   <p class="mega-menu-text">Clinical trials, drug development research</p>
                                                 </div>
                                             </div>
@@ -131,7 +125,7 @@
                             <a href="/contact" class="nav-item nav-link menu-left font-weight-bold" tabindex="-1">Contact</a>
                         </div>
                         <div class="navbar-nav ms-auto d-flex align-items-center">
-                            <a href="#" class="btn get-started-btn">Get Started</a>
+                            <a href="#" class="btn get-started-btn">Sign in</a>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+
 <div class="container-fluid newsletter-section">
     <div class="container">
         <div class="row">
@@ -10,11 +11,11 @@
                     <div class="col-7">
                         <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
                         <div class="input-group">
-                            <input type="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter your email address" required>
+                            <input type="email" class="form-control" id="mail" placeholder="Enter your email address" required>
                         </div>
                     </div>
                     <div class="col-5">
-                        <button type="submit" class="btn get-started-btn">Get Started</button>
+                        <button type="button" id="send" class="btn get-started-btn">Get Started</button>
                     </div>
                 </form>
             </div>
@@ -54,16 +55,16 @@
                     Products
                 </h6>
                 <p>
-                    <a href="#products" class="text-reset">Relay</a>
+                    <a href="/#products" class="text-reset">Relay</a>
                 </p>
                 <p>
-                    <a href="#products" class="text-reset">Recount</a>
+                    <a href="/#products" class="text-reset">Recount</a>
                 </p>
                 <p>
-                    <a href="#products" class="text-reset">Refill</a>
+                    <a href="/#products" class="text-reset">Refill</a>
                 </p>
                 <p>
-                    <a href="#products" class="text-reset">Refer</a>
+                    <a href="/#products" class="text-reset">Refer</a>
                 </p>
                 <p>
                     <a href="#!" class="text-reset">Loans</a>
@@ -80,17 +81,17 @@
                 <h6 class="fw-bold mb-4 footer-title">
                     Socials
                 </h6>
-                <p>
+                <!-- <p>
                     <a href="#!" class="text-reset">Github</a>
+                </p> -->
+                <p>
+                    <a href="https://twitter.com/swiftmedispark" target="_blank" class="text-reset">Twitter</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Twitter</a>
+                    <a href="https://www.instagram.com/swiftmedispark/" target="_blank" class="text-reset">Instagram</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Instagram</a>
-                </p>
-                <p>
-                    <a href="#!" class="text-reset">Linkedin</a>
+                    <a href="https://www.linkedin.com/company/swift-medispark" target="_blank" class="text-reset">Linkedin</a>
                 </p>
                 
             </div>
@@ -108,3 +109,23 @@
         </div>
     </div>
 </section>
+<script>
+  $("#send").click (function () {
+    var mail = $("#mail").val();
+    if(mail == ''){
+      swal({
+        title: "Empty Field!",
+        text: "Please type your email address",
+        icon: "warning",
+        button: "OK",
+      });
+    } else {
+      swal({
+        title: "Email Sent",
+        icon: "success",
+        button: "OK",
+      });
+    }
+    
+  });
+</script>

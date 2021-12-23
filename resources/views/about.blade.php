@@ -33,9 +33,8 @@
       <img src="/img/dashboard.png" class="img-fluid" alt="Swift Medispark">
     </div>
     <div class="col-md-6 text-about">
-      <h1 class="font-weight-bolder about-heading">Powering the future<br>of <span class="sub-text">African Health</span></h1>
-      <h6 class="pt-3 banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable health data transfers at scale.</h6>
-      <h6 class="pb-3 banner-text">+ Interfaces (inc EMR), API code.</h6>
+      <h1 class="font-weight-bolder about-heading">Powering the future<br>of <span class="sub-text">African Healthcare</span></h1>
+      <h6 class="pt-3 pb-3 banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable distribution of healthcare services at scale.</h6>
       <a href="#" class="btn get-started-btn">Get Started</a>
     </div>
   </div>
@@ -68,7 +67,7 @@
   <h1 class="font-weight-bolder about-heading">Care to join us?</h1>
   <div class="row">
     <div class="col-md-6 pt-4">
-      <h6 class="pb-3 banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable health data transfers at scale.<br>+ Interfaces (inc EMR), API code.</h6>
+      <h6 class="pb-3 banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable health data transfers at scale.</h6>
       <a href="#" class="btn get-started-btn">See Openings</a>
     </div>
   </div>
@@ -78,7 +77,7 @@
 </div>
 <div class="container awards-logo animate__animated animate__slideInLeft animate__slow">
   <div class="row">
-    <h2 class="font-weight-bold">Awards and certifications</h2>
+    <h2 class="font-weight-bold">Certificate and compliance</h2>
   </div>
   <div class="row mt-2">
     <div class="col">

@@ -42,19 +42,19 @@
         <form method="post" data-form-title="CONTACT US">
           <input type="hidden" data-form-email="true">
           <div class="form-group">
-            <input type="text" class="form-control form-control-contact" name="name" required="" placeholder="Name*" data-form-field="Name">
+            <input type="text" class="form-control form-control-contact" id="name" name="name" required="" placeholder="Name*" data-form-field="Name">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control form-control-contact" name="email" required="" placeholder="Email*" data-form-field="Email">
+            <input type="email" class="form-control form-control-contact" id="mailer" name="email" required="" placeholder="Email*" data-form-field="Email">
           </div>
           <div class="form-group">
-            <input type="tel" class="form-control form-control-contact" name="phone" placeholder="Phone*" data-form-field="Phone">
+            <input type="tel" class="form-control form-control-contact" id="phone" name="phone" placeholder="Phone*" data-form-field="Phone">
           </div>
           <div class="form-group">
-            <textarea class="form-control form-control-contact" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+            <textarea class="form-control form-control-contact" id="message" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
           </div>
           <div>
-            <button type="submit" class="btn btn-block get-started-btn">Submit</button>
+            <button type="button" id="push" class="btn btn-block get-started-btn">Submit</button>
           </div>
         </form>
       </div>
@@ -68,3 +68,26 @@
 <footer class="text-left text-lg-start text-muted">
   @include('layouts.footer')
 </footer>
+<script>
+  $("#push").click (function () {
+    var name = $("#name").val();
+    var mailer = $("#mailer").val();
+    var phone = $("#phone").val();
+    var message = $("#message").val();
+    if(name == '' || mailer == '' || phone =='' || message ==""){
+      swal({
+        title: "Empty Field!",
+        text: "Please check the missing field(s)",
+        icon: "warning",
+        button: "OK",
+      });
+    } else {
+      swal({
+        title: "Tada!!! Message Sent",
+        icon: "success",
+        button: "OK",
+      });
+    }
+    
+  });
+</script>

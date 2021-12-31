@@ -150,7 +150,7 @@
 
 p {
     font-family: 'Sen', sans-serif!important;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .faq-heading {
@@ -159,7 +159,11 @@ p {
 
 body {
     background-color: #fff!important;
-    /* font-family: "Nunito", sans-serif!important; */
+    overflow-x: hidden!important;
+    /* width: 100%; */
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 .banner-text {
@@ -167,6 +171,13 @@ body {
     font-size: 18px!important;
     color: #333!important;
     font-weight: 400!important;
+}
+
+.banner-heading {
+    font-size: 50px;
+    color: #303030;
+    line-height: 65px;
+    font-weight: 800!important;
 }
 
 .get-started-btn {
@@ -398,13 +409,22 @@ footer {
     font-family: 'Sen', sans-serif!important;
 }
 
-.mega-div {
-    border: 1px solid #fff!important;
+/* .mega-div {
+    border: 1px solid #f4f4f4!important;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 20px!important;
+    padding: 30px!important;
+} */
+
+.mega-div {
+    border: 1px solid #f2f2f2!important;
+    box-shadow: rgb(0 0 0 / 3%) 0px -16px 9px;
+    border-radius: 20px!important;
+    padding: 30px!important;
 }
 
 .menu-logo {
-    width: 20px;
+    width: 38px;
 }
 
 .flex-container {
@@ -649,7 +669,20 @@ a.icon-faq {
         font-size: 44px;
         color: #303030;
         line-height: 65px;
+        font-weight: 800;
     }
+}
+
+@media only screen and (max-width: 768px){
+    html, body {
+        overflow-x: hidden!important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .dropdown>.dropdown-toggle:active {
+        pointer-events: none;
+    } 
 }
 
 
@@ -666,7 +699,7 @@ a.icon-faq {
 
 @media only screen and (min-width: 768px){
     .dropdown-large {
-        min-width: 699px!important;
+        min-width: 855px!important;
     }
     .dropdown-menu[data-bs-popper] {
         top: 120%!important;
@@ -695,8 +728,12 @@ a.icon-faq {
 
 @media only screen and (min-width: 768px){
     .dropdown:hover>.dropdown-menu {
-        margin-left: -173px;
-    } 
+        margin-left: -298px;
+        top: 59px;
+    }  
+}
+
+@media only screen and (min-width: 768px){
     .dropdown>.dropdown-toggle:active {
         pointer-events: none;
     } 
@@ -746,6 +783,28 @@ a.icon-faq {
 }
 
 
-img {
-    image-rendering: auto;
-  }
+
+
+@media only screen and (min-width: 768px){
+    .mega-div:after {
+        position: absolute;
+        left: 50%;
+        margin-left: -20px;
+        top: -20px;
+        width: 0;
+        height: 0;
+        content:'';
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #fff;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .banner-heading {
+        font-size: 46px;
+        color: #303030;
+        line-height: 65px;
+        font-weight: 800!important;
+    }
+}

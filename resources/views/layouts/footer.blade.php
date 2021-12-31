@@ -67,10 +67,10 @@
                     <a href="/#products" class="text-reset">Refer</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Loans</a>
+                    <a href="#!" class="text-reset">Remit</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Omni</a>
+                    <a href="#!" class="text-reset">Relay</a>
                 </p>
             </div>
             <!-- Grid column -->

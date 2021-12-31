@@ -3,8 +3,8 @@
 @section('content')
 <div class="container banner-section">
   <div class="row">
-    <div class="col-md-6 animate__animated animate__bounceInLeft animate__slow">
-      <h1 class="font-weight-bolder about-heading">Digital infrastructure<br>for <span class="color-text">healthcare</span></h1>
+    <div class="col-md-6" data-aos="zoom-in-left" data-aos-duration="1000">
+      <h1 class="banner-heading">Digital infrastructure<br>for <span class="color-text">healthcare</span></h1>
       <h6 class="pt-4 banner-text">Leading health companies trust MediSpark’s APIs and ecosystem to connect with their partners and customers.</h6>
       <div class="mt-5 mb-5">
         <form class="row g-3 align-items-center">
@@ -20,8 +20,8 @@
         </form>
       </div>
     </div>
-    <div class="col-md-6 animate__animated animate__slideInRight">
-      <img src="/img/banner.gif" class="img-fluid">
+    <div class="col-md-6" data-aos="zoom-in-left" data-aos-duration="1000">
+      <img src="/img/banner-one.gif" class="img-fluid">
       <!-- <img src="/img/aboutgif.mp4" class="img-fluid" alt="Swift Medispark"> -->
     </div>
   </div>
@@ -29,7 +29,7 @@
 <div class="container-fluid mt-2 mb-4">
   <img src="/img/divider.svg" class="bg" alt="Swift Medispark">
 </div>
-<div class="container clients-logo animate__animated animate__slideInLeft animate__slow">
+<div class="container clients-logo" data-aos="slide-right" data-aos-duration="1000">
   <div class="row">
     <h2 class="font-weight-bold">Trusted by</h2>
   </div>
@@ -52,9 +52,8 @@
   </div>
 </div>
 <div class="container-fluid about-section">
-  <div class="row">
-    <div class="col-md-6 img-about animate__animated animate__slideInLeft animate__slow">
-      <!-- <img src="/img/about.png" class="img-fluid" alt="Swift Medispark"> -->
+  <div class="row" data-aos="slide-left" data-aos-duration="1000">
+    <div class="col-md-6 img-about">
       <img src="/img/about.png" class="img-fluid" alt="Swift Medispark">
     </div>
     <div class="col-md-6 text-about">
@@ -64,22 +63,22 @@
     </div>
   </div>
 </div>
-<div class="container producttab-section" id="products">
+<div class="container producttab-section" id="products" data-aos="slide-right" data-aos-duration="1000">
   <h1 class="font-weight-bolder about-heading mb-4">Products</h1>
   <div class="row">
     <div class="col-md-6">
-    <div class="tabcontent" id="Relay">
-      <img src="/img/relay-one.png" class="img-fluid" alt="Swift Medispark">
-    </div>
-    <div class="tabcontent" id="Refill">
-      <img src="/img/refill-one.png" class="img-fluid" alt="Swift Medispark">
-    </div>
-    <div class="tabcontent" id="Refer">
-      <img src="/img/refer-one.png" class="img-fluid" alt="Swift Medispark">
-    </div>
-    <div class="tabcontent" id="Recount">
-      <img src="/img/recount-one.png" class="img-fluid" alt="Swift Medispark">
-    </div>
+      <div class="tabcontent" id="Relay">
+        <img src="/img/relay-one.png" class="img-fluid" alt="Swift Medispark">
+      </div>
+      <div class="tabcontent" id="Refill">
+        <img src="/img/refill-one.png" class="img-fluid" alt="Swift Medispark">
+      </div>
+      <div class="tabcontent" id="Refer">
+        <img src="/img/refer-one.png" class="img-fluid" alt="Swift Medispark">
+      </div>
+      <div class="tabcontent" id="Recount">
+        <img src="/img/recount-one.png" class="img-fluid" alt="Swift Medispark">
+      </div>
     </div>
     
     <div class="col-md-6 tab-section">
@@ -133,7 +132,7 @@
   </div>
 </div>
 <div class="container-fluid about-section br-30">
-  <div class="container">
+  <div class="container" data-aos="slide-up" data-aos-duration="1000">
     <h1 class="font-weight-bolder about-heading">How we’ve <span class="sub-text">performed</span> so far</h1>
     <div class="row pt-5">
       <div class="col mb-4">
@@ -164,10 +163,10 @@
   </div>
 </div>
 <div class="container product-section">
-  <h1 class="font-weight-bolder about-heading">Here’s what our <span class="sub-text">customers</span><br>think</h1>
+  <h1 class="font-weight-bolder about-heading" data-aos="slide-right" data-aos-duration="1000">Here’s what our <span class="sub-text">customers</span><br>think</h1>
   <div class="row">
     <div class="col-md-6 col-sm-6 col-xs-6">
-      <div class="testimonial-one animate__animated animate__slideInLeft animate__slow">
+      <div class="testimonial-one" data-aos="slide-right">
         <div class="test-img">
          <img src="/img/testimonial-1.png" class="img-fluid" width="100px" alt="Medispark">
         </div>
@@ -177,7 +176,7 @@
       </div>
     </div>
     <div class="col-md-6 col-sm-6 col-xs-6">
-      <div class="testimonial-two animate__animated animate__slideInRight animate__slow">
+      <div class="testimonial-two" data-aos="slide-left" data-aos-duration="1000">
         <div class="test-img">
          <img src="/img/testimonial-2.png" class="img-fluid" width="100px" alt="Medispark">
         </div>
@@ -189,8 +188,8 @@
   </div>
 </div>
 <div class="container blog-section">
-  <h1 class="font-weight-bolder about-heading">Medispark in the news</h1>
-  <div class="row pt-5">
+  <h1 class="font-weight-bolder about-heading" data-aos="slide-right" data-aos-duration="1000">Medispark in the news</h1>
+  <div class="row pt-5" data-aos="slide-up" data-aos-duration="1000">
     <div id="carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
@@ -290,7 +289,7 @@
     </div>
   </div>
 </div>
-<div class="container awards-logo animate__animated animate__slideInLeft animate__slow">
+<div class="container awards-logo" data-aos="slide-right" data-aos-duration="1000">
   <div class="row">
     <h2 class="font-weight-bold">Certificate and compliance</h2>
   </div>
@@ -358,6 +357,32 @@ function openCard(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  // AOS.init();
+  AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+  });
 </script>
 @endsection
 

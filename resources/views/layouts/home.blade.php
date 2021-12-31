@@ -2,7 +2,9 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="description" content="SwiftMediSpark is a company that implements Swiftpractice EMR, Nigeria's best all-in-one clinical software">
         <title>Swift MediSpark</title>
 
@@ -11,7 +13,9 @@
         <link href="http://fonts.cdnfonts.com/css/axiforma" rel="stylesheet">
         
         <link rel="stylesheet" href="/css/app.css">
+        
         <link rel="stylesheet" href="/css/custom.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="icon" href="{{ url('img/favicon.png') }}">
         <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"> -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -90,16 +94,16 @@
                                                   <p class="mega-menu-text">Claim submission, Auto-vetting</p>
                                                 </div>
                                             </div> 
-                                        </div><!-- end col-3 -->
+                                        </div>
                                         <div class="col-6">
                                             <div class="flex-container">
-                                                <img src="/img/refill.png" alt="" width="11px" class="img-fluid">
+                                                <img src="/img/refill.png" alt="" width="25px" class="img-fluid">
                                                 <div class="logo-menu">
                                                 <h6 class="title"><a href="/#products">Refill</a></h6>
                                                   <p class="mega-menu-text">Medication refills, Virtual consultations</p>
                                                 </div>
                                             </div>
-                                        </div><!-- end col-3 -->
+                                        </div>
                                         <div class="col-6">
                                             <div class="flex-container">
                                                 <img src="/img/refer.png" alt="" class="menu-logo img-fluid">
@@ -108,16 +112,34 @@
                                                   <p class="mega-menu-text">Referral services, health record sharing</p>
                                                 </div>
                                             </div>
-                                        </div><!-- end col-3 -->
+                                        </div>
                                         <div class="col-6">
                                             <div class="flex-container">
                                                 <img src="/img/recount.png" alt="" class="menu-logo img-fluid">
                                                 <div class="logo-menu">
                                                 <h6 class="title"><a href="/#products">Recount</a></h6>
-                                                  <p class="mega-menu-text">Clinical trials, drug development research</p>
+                                                  <p class="mega-menu-text">APIs for Clinical trials & research</p>
                                                 </div>
                                             </div>
-                                        </div><!-- end col-3 -->
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="flex-container">
+                                                <img src="/img/remit.png" alt="" class="menu-logo img-fluid">
+                                                <div class="logo-menu">
+                                                <h6 class="title"><a href="/#products">Remit</a></h6>
+                                                  <p class="mega-menu-text">Integrated payment services</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="flex-container">
+                                                <img src="/img/repay.png" alt="" class="menu-logo img-fluid">
+                                                <div class="logo-menu">
+                                                <h6 class="title"><a href="/#products">Repay</a></h6>
+                                                  <p class="mega-menu-text">Financing, Loan eligibility assessments</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div><!-- end row -->
                                 </div> 
                             </li>

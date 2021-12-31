@@ -4,8 +4,8 @@
   <div class="row">
     <div class="col-md-12 text-center">
       <div class="about-jumbotron">
-       <h1 class="font-weight-bolder about-heading">Digital infrastructure<br>for <span class="color-text">healthcare</span></h1>
-       <h6 class="spacing banner-text">Leading health companies trust MediSpark’s APIs and <br>ecosystem to connect with their partners and customers.</h6> 
+       <h1 class="font-weight-bolder about-heading">Empowering <span class="color-text">healthcare companies</span><br>to achieve more</h1>
+       <h6 class="spacing banner-text about-subtitle">MediSpark is on a mission to power the next generation of healthcare services in Africa. Our APIs connect players across the health sector, enabling demand aggregation and effective distribution, with in-built compliance.</h6> 
        <a href="#about"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
       </div>
     </div>
@@ -33,8 +33,8 @@
       <img src="/img/about.png" class="img-fluid" alt="Swift Medispark">
     </div>
     <div class="col-md-6 text-about">
-      <h1 class="font-weight-bolder about-heading">Powering the future<br>of <span class="sub-text">African Healthcare</span></h1>
-      <h6 class="pt-3 pb-3 banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable distribution of healthcare services at scale.</h6>
+      <h1 class="font-weight-bolder about-heading">Health technology partner for <span class="sub-text">fintechs, insurtechs & healthtechs</span></h1>
+      <h6 class="pt-3 pb-3 banner-text">MediSpark’s suite of APIs, SDKs, and white-labeled UIs, empowers founders to build great features into their products — distribution, claims, payments, prescription fulfilment, diagnostics, referrals, research, financing, telehealth, compliance, and more.<br>We do the heavy lifting while you expand your products with ease.</h6>
       <a href="#" class="btn get-started-btn">Get Started</a>
     </div>
   </div>
@@ -44,21 +44,21 @@
   <div class="row mt-5">
     <div class="col-md-4">
       <div class="values mb-2">
-        <h6 class="card-title">Integrity</h6>
-        <p class="banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable health data transfers at scale.<br>+ Interfaces (inc EMR), API code.</p>
+        <h6 class="card-title">Patients come first</h6>
+        <p class="banner-text">Your patients are our patients. Ensuring our goals are aligned helps us build the best healthcare experience possible.</p>
       </div>
     </div>
     <div class="col-md-4">
       <div class="values-two mb-2">
-        <h6 class="card-title">Integrity</h6>
-        <p class="banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable health data transfers at scale.<br>+ Interfaces (inc EMR), API code.</p>
+        <h6 class="card-title">Breaking barriers</h6>
+        <p class="banner-text">We understand that speed is your competitive in today’s market. Our products expand your possibilities so you can build the best features in the fastest time.</p>
 
       </div>
     </div>
     <div class="col-md-4">
       <div class="values-three mb-2">
-        <h6 class="card-title">Customer-Focused</h6>
-        <p class="banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable health data transfers at scale.<br>+ Interfaces (inc EMR), API code.</p>
+        <h6 class="card-title">Reliability</h6>
+        <p class="banner-text">We are people and infrastructure you can trust. To deliver this promise, we build with compliance, security, and integrity in mind.</p>
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@
   <h1 class="font-weight-bolder about-heading">Care to join us?</h1>
   <div class="row">
     <div class="col-md-6 pt-4">
-      <h6 class="pb-3 banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable health data transfers at scale.</h6>
+      <h6 class="pb-3 banner-text">We are a passionate and creative team bound by a shared goal - to build technology that improves healthcare for billions of Africans.</h6>
       <a href="#" class="btn get-started-btn">See Openings</a>
     </div>
   </div>
@@ -81,19 +81,16 @@
   </div>
   <div class="row mt-2">
     <div class="col">
-      <img src="/img/logo/urac.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/hipaa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
     <div class="col">
-      <img src="/img/logo/legit.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/nitda.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
     <div class="col">
-      <img src="/img/logo/nabp.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/gdpr.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
     <div class="col">
-      <img src="/img/logo/nyu.png" class="img-fluid" alt="Swift Medispark">
-    </div>
-    <div class="col">
-      <img src="/img/logo/sas.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/cohsasa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
   </div>
 </div>

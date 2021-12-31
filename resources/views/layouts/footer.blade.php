@@ -1,4 +1,3 @@
-
 <div class="container-fluid newsletter-section">
     <div class="container">
         <div class="row">
@@ -79,7 +78,7 @@
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <!-- Links -->
                 <h6 class="fw-bold mb-4 footer-title">
-                    Socials
+                    Social
                 </h6>
                 <!-- <p>
                     <a href="#!" class="text-reset">Github</a>

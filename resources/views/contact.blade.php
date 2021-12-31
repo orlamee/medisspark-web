@@ -4,8 +4,8 @@
   <div class="row">
     <div class="col-md-12 text-center">
       <div class="about-jumbotron">
-       <h1 class="font-weight-bolder about-heading">Contact Us</h1>
-       <h6 class="spacing banner-text">Leading health companies trust MediSpark’s APIs and <br>ecosystem to connect with their partners and customers.</h6> 
+       <h1 class="font-weight-bolder about-heading">How can we help?</h1>
+       <h6 class="spacing banner-text">Looking for tech solutions to grow your healthcare business? Speak<br>to someone at MediSpark today! Let’s start something great.</h6> 
        <a href="#contact"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
       </div>
     </div>
@@ -24,7 +24,7 @@
       <div class="flex-container spacing-contact">
         <i class="bi bi-telephone-inbound contact-icon"></i>
         <div class="contact-menu">
-          <a href="#" class="btn get-started-btn colored-btn">Schedule a call</a>
+          <h6 class="title-list">+234 708 432 8977</h6>
         </div>
       </div>
       <div class="flex-container spacing-contact">
@@ -32,6 +32,13 @@
         <div class="contact-menu">
           <h6 class="title-list">11 Ore Close, Off Babatunde St,<br>Surulere 101283, Lagos </h6>
           <hr>
+          <h6 class="title-list">2055 Limestone Rd STE 200-C Wilmington,<br>DE 19808, United States </h6>
+        </div>
+      </div>
+      <div class="flex-container spacing-contact">
+        <i class="bi bi-calendar3 contact-icon"></i>
+        <div class="contact-menu">
+          <a href="#" class="btn get-started-btn colored-btn">Schedule a meeting</a>
         </div>
       </div>
     </div>
@@ -83,7 +90,8 @@
       });
     } else {
       swal({
-        title: "Tada!!! Message Sent",
+        title: "Thank you!",
+        text: "Someone from MediSpark will be in touch soon",
         icon: "success",
         button: "OK",
       });

@@ -123,7 +123,7 @@
             </div>
             <div class="product-text">
               <h3 class="heading">Recount</h3>
-              <p class="tab-text">Connects Providers to Researchers For: Clinical trials, drug development research</p>
+              <p class="tab-text">Connects Providers to Researchers For: Clinical trials, drug development research.</p>
             </div>
           </div>
         </button>
@@ -168,21 +168,21 @@
     <div class="col-md-6 col-sm-6 col-xs-6">
       <div class="testimonial-one" data-aos="slide-right">
         <div class="test-img">
-         <img src="/img/testimonial-1.png" class="img-fluid" width="100px" alt="Medispark">
+         <img src="/img/testimonial-one.png" class="img-fluid" width="100px" alt="Medispark">
         </div>
-        <h6 class="testimonial-text">“We were looking to accelerate our dev efforts and access new talent. With Teamway we got all that plus a ton of flexibility for a good price”.</h6>
-        <h6 class="font-weight-bold author">Wale Osinaike</h6>
-        <p class="text-muted company">Founder, Hive Hospitals</p>
+        <h6 class="testimonial-text">“Our efforts to build Africa’s largest biobank rely on being able to gather genomic data on a large scale. MediSpark’s APIs enable us efficiently extract data from our partner facilities, saving thousands of man-hours as we scale operations globally.”</h6>
+        <h6 class="font-weight-bold author">Abasi Ene-Obong, PhD</h6>
+        <p class="text-muted company">CEO, 54gene</p>
       </div>
     </div>
     <div class="col-md-6 col-sm-6 col-xs-6">
       <div class="testimonial-two" data-aos="slide-left" data-aos-duration="1000">
         <div class="test-img">
-         <img src="/img/testimonial-2.png" class="img-fluid" width="100px" alt="Medispark">
+         <img src="/img/testimonial-two.png" class="img-fluid" width="100px" alt="Medispark">
         </div>
-        <h6 class="testimonial-text">“We were looking to accelerate our dev efforts and access new talent. With Teamway we got all that plus a ton of flexibility for a good price”.</h6>
-        <h6 class="font-weight-bold author">Makaile Agur</h6>
-        <p class="text-muted company">Co-founder, Insidious Health</p>
+        <h6 class="testimonial-text">“MediSpark’s infrastructure has significantly increased our capacity to distribute health insurance products for our HMO partners. Integration was fast and easy, transactions are seamless, uptime has been excellent.”</h6>
+        <h6 class="font-weight-bold author">Henry Mascot</h6>
+        <p class="text-muted company">Founder and CEO, Curacel</p>
       </div>
     </div>
   </div>
@@ -201,20 +201,20 @@
           <div class="row">
             <div class="col-md-3 mb-3">
               <div class="card">
-                <img src="/img/blog-one.png" class="img-fluid" alt="">
+                <img src="/img/blog-two.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <h6 class="card-title-blog pt-2">How MediSpark is building Africa’s healthcare ecosystem</h6>
+                  <p class="card-text pt-2 pb-2">MediSpark is the brainchild of Ugo Nwokoro and Gbenga Oyeniyi....</p>
                   <a href="#">Read More</a>
                 </div>
               </div>
             </div> 
             <div class="col-md-3 mb-3">
               <div class="card">
-                <img src="/img/blog-two.png" class="img-fluid" alt="">
+                <img src="/img/blog-one.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <h6 class="card-title-blog pt-2">MediSpark joins Aidi Africa’s prestigious accelerator</h6>
+                  <p class="card-text pt-2 pb-2">Aidi Africa, an African venture builder run by its portfolio manag...</p>
                   <a href="#">Read More</a>
                 </div>
               </div>
@@ -223,8 +223,8 @@
               <div class="card">
                 <img src="/img/blog-three.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <h6 class="card-title-blog pt-2">MediSpark wins 1st prize at KOPETECH awards</h6>
+                  <p class="card-text pt-2 pb-2">The maiden edition of KOPETECH, an annual programme for empow...</p>
                   <a href="#">Read More</a>
                 </div>
               </div>
@@ -233,8 +233,8 @@
               <div class="card">
                 <img src="/img/blog-four.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <h6 class="card-title-blog pt-2">MediSpark wins Utopia’s Urban Innovation Challenge</h6>
+                  <p class="card-text pt-2 pb-2">Utopia has announced the winners of the first-ever Lagos Urban Inn...</p>
                   <a href="#">Read More</a>
                 </div>
               </div>
@@ -245,44 +245,44 @@
           <div class="row">
             <div class="col-md-3 mb-3">
               <div class="card">
-                <img src="/img/blog-one.png" class="img-fluid" alt="">
-                <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <div class="card">
                 <img src="/img/blog-two.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <h6 class="card-title-blog pt-2">How MediSpark is building Africa’s healthcare ecosystem</h6>
+                  <p class="card-text pt-2 pb-2">MediSpark is the brainchild of Ugo Nwokoro and Gbenga Oyeniyi....</p>
                   <a href="#">Read More</a>
                 </div>
               </div>
-            </div>
+            </div> 
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="/img/blog-one.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark joins Aidi Africa’s prestigious accelerator</h6>
+                  <p class="card-text pt-2 pb-2">Aidi Africa, an African venture builder run by its portfolio manag...</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>  
             <div class="col-md-3 mb-3">
               <div class="card">
                 <img src="/img/blog-three.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <h6 class="card-title-blog pt-2">MediSpark wins 1st prize at KOPETECH awards</h6>
+                  <p class="card-text pt-2 pb-2">The maiden edition of KOPETECH, an annual programme for empow...</p>
                   <a href="#">Read More</a>
                 </div>
               </div>
-            </div>
+            </div>  
             <div class="col-md-3 mb-3">
               <div class="card">
                 <img src="/img/blog-four.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">The future of Medicine in Africa and beyond</h6>
-                  <p class="card-text pt-2 pb-2">“We were looking to accelerate our dev efforts looking to add to.....</p>
+                  <h6 class="card-title-blog pt-2">MediSpark wins Utopia’s Urban Innovation Challenge</h6>
+                  <p class="card-text pt-2 pb-2">Utopia has announced the winners of the first-ever Lagos Urban Inn...</p>
                   <a href="#">Read More</a>
                 </div>
               </div>
-            </div>        
+            </div>   
           </div>
         </div>
       </div>
@@ -295,19 +295,16 @@
   </div>
   <div class="row mt-2">
     <div class="col">
-      <img src="/img/logo/urac.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/hipaa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
     <div class="col">
-      <img src="/img/logo/legit.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/nitda.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
     <div class="col">
-      <img src="/img/logo/nabp.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/gdpr.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
     <div class="col">
-      <img src="/img/logo/nyu.png" class="img-fluid" alt="Swift Medispark">
-    </div>
-    <div class="col">
-      <img src="/img/logo/sas.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/logo/cohsasa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
   </div>
 </div>

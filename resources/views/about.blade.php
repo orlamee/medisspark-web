@@ -11,31 +11,124 @@
     </div>
   </div>
 </div>
-<div class="container gallery" id="about" data-aos="slide-up" data-aos-duration="1000">
+<div class="container gallery desktop" id="about" data-aos="slide-up" data-aos-duration="1000">
   <div class="row">
-    <div class="col-md-4">
-      <img src="/img/about-one.png" class="img-fluid mb-2" alt="Medispark">
-    </div>
-    <div class="col-md-4">
-      <img src="/img/about-two.png" class="img-fluid mb-2" alt="Medispark">
-    </div>
-    <div class="col-md-4">
-      <img src="/img/about-three.png" class="img-fluid mb-2" alt="Medispark">
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <!-- <div class="controller">
+        <a class="left carousel-control pr-3" href="#mycarousel" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#mycarousel" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+      </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-one.png" class="img-fluid mb-2" alt="Medispark">
+            </div> 
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-two.png" class="img-fluid mb-2" alt="Medispark">
+            </div>  
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-three.png" class="img-fluid mb-2" alt="Medispark">
+            </div>     
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-four.png" class="img-fluid mb-2" alt="Medispark">
+            </div> 
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-five.png" class="img-fluid mb-2" alt="Medispark">
+            </div>  
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-six.png" class="img-fluid mb-2" alt="Medispark">
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="control">
+        <a class="left carousel-control pr-3" href="#mycarousel" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#mycarousel" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+      </div>
     </div>
   </div>
 </div>
+
+<div class="container gallery mobile" id="about" data-aos="slide-up" data-aos-duration="1000">
+  <div class="row">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="2" class="bg-secondary"></li>
+      </ol> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-one.png" class="img-fluid mb-2" alt="Medispark">
+            </div>      
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-two.png" class="img-fluid mb-2" alt="Medispark">
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-three.png" class="img-fluid mb-2" alt="Medispark">
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-four.png" class="img-fluid mb-2" alt="Medispark">
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-five.png" class="img-fluid mb-2" alt="Medispark">
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-six.png" class="img-fluid mb-2" alt="Medispark">
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-4 col-12 mb-3">
+              <img src="/img/about-seven.png" class="img-fluid mb-2" alt="Medispark">
+            </div>   
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container mb-5">
   <h1 class="font-weight-bolder about-heading" data-aos="slide-right">What we do</h1>
 </div>
 <div class="container-fluid about-section">
   <div class="row" data-aos="slide-left" data-aos-duration="1000">
     <div class="col-md-6 img-about animate__animated animate__slideInLeft animate__slow">
-      <img src="/img/about.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/about-img.png" class="img-fluid" alt="Swift Medispark">
     </div>
     <div class="col-md-6 text-about">
-      <h1 class="font-weight-bolder about-heading">Health technology partner for <span class="sub-text">fintechs, insurtechs & healthtechs</span></h1>
-      <h6 class="pt-3 pb-3 banner-text">MediSpark’s suite of APIs, SDKs, and white-labeled UIs, empowers founders to build great features into their products — distribution, claims, payments, prescription fulfilment, diagnostics, referrals, research, financing, telehealth, compliance, and more.<br>We do the heavy lifting while you expand your products with ease.</h6>
-      <a href="#" class="btn get-started-btn">Get Started</a>
+      <h1 class="font-weight-bolder about-heading">Technology partner for <span class="sub-text">fintechs, insurtechs & healthtechs</span></h1>
+      <h6 class="pt-3 pb-3 banner-text">MediSpark’s suite of APIs, SDKs, and white-labeled UIs, empowers founders to build great features into their products — distribution, claims, payments, prescription fulfilment, diagnostics, referrals, research, financing, telehealth, compliance, and more.</h6>
+      <a href="/contact#get-started" class="btn get-started-btn">Get Started</a>
     </div>
   </div>
 </div>
@@ -68,7 +161,7 @@
   <div class="row">
     <div class="col-md-6 pt-4">
       <h6 class="pb-3 banner-text">We are a passionate and creative team bound by a shared goal - to build technology that improves healthcare for billions of Africans.</h6>
-      <a href="#" class="btn get-started-btn">See Openings</a>
+      <a href="https://swiftmedispark.freshteam.com/jobs" target="_blank" class="btn get-started-btn">See Openings</a>
     </div>
   </div>
 </div>
@@ -77,19 +170,19 @@
 </div>
 <div class="container awards-logo" data-aos="slide-right" data-aos-duration="1000">
   <div class="row">
-    <h2 class="font-weight-bold">Certificate and compliance</h2>
+    <h2 class="font-weight-bold">Certificates and compliance</h2>
   </div>
   <div class="row mt-2">
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/hipaa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/nitda.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/gdpr.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/cohsasa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
   </div>

@@ -23,6 +23,8 @@ Route::view('/faq', 'faq');
 
 Route::view('/contact', 'contact');
 
+Route::view('/success', 'success');
+
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');

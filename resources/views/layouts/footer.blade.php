@@ -6,16 +6,11 @@
                 <h6 class="text-white banner-text">Trust MediSpark’s APIs and ecosystem to connect with your partners and customers.</h6>
             </div>
             <div class="col-md-6 newsletter-form">
-                <form class="row g-3 align-items-center">
-                    <div class="col-7">
-                        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
-                        <div class="input-group">
-                            <input type="email" class="form-control" id="mail" placeholder="Enter your email address" required>
-                        </div>
+                <form class="footer-form">
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="mail" placeholder="Enter your email address" required>
                     </div>
-                    <div class="col-5">
-                        <button type="button" id="send" class="btn get-started-btn">Get Started</button>
-                    </div>
+                    <button type="button" id="send" class="btn get-started-btn right-float">Get Started</button>
                 </form>
             </div>
         </div>
@@ -24,10 +19,10 @@
 <section class="footer-section">
     <div class="container text-left text-md-start mt-5">
         <div class="row mt-3">
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <div class=""><img src="/img/medispark-logo.png" height="28" alt="Swift Medispark"></div>
+            <div class="col-sm-3 col-12 mb-5">
+                <div class=""><img src="/img/logo-black.png" height="28" alt="Swift Medispark"></div>
             </div>
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-sm-3 col-6">
             <!-- Links -->
                 <h6 class="fw-bold mb-4 footer-title">
                     Company
@@ -39,16 +34,16 @@
                     <a href="/contact" class="text-reset">Contact</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Careers</a>
+                    <a href="https://swiftmedispark.freshteam.com/jobs" target="_blank" class="text-reset">Careers</a>
                 </p>
-                <p>
+                <!-- <p>
                     <a href="/faq" class="text-reset">FAQ'S</a>
-                </p>
+                </p> -->
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-sm-3 col-6">
                 <!-- Links -->
                 <h6 class="fw-bold mb-4 footer-title">
                     Products
@@ -66,16 +61,16 @@
                     <a href="/#products" class="text-reset">Refer</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Remit</a>
+                    <a href="/#products" class="text-reset">Remit</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Relay</a>
+                    <a href="/#products" class="text-reset">Relay</a>
                 </p>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <div class="col-sm-3 col-6">
                 <!-- Links -->
                 <h6 class="fw-bold mb-4 footer-title">
                     Social
@@ -103,7 +98,7 @@
     <div class="container">
         <div class="row mb-4 mt-4">
             <div class="col">
-             <p>© 2021 Medispark</p> 
+             <p>© 2022 Medispark</p> 
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
       <h1 class="banner-heading">Digital infrastructure<br>for <span class="color-text">healthcare</span></h1>
       <h6 class="pt-4 banner-text">Leading health companies trust MediSpark’s APIs and ecosystem to connect with their partners and customers.</h6>
       <div class="mt-5 mb-5">
-        <form class="row g-3 align-items-center">
+        <form class="row g-3 align-items-center desktop">
           <div class="col-7">
             <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
             <div class="input-group">
@@ -18,10 +18,22 @@
             <button type="button" id="submit" class="btn get-started-btn">Get Started</button>
           </div>
         </form>
+        <!-- Mobile view -->
+        <form class="row g-3 align-items-center mobile">
+          <div class="col-12">
+            <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+            <div class="input-group">
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="button" id="submit" class="btn get-started-btn">Get Started</button>
+          </div>
+        </form>
       </div>
     </div>
     <div class="col-md-6" data-aos="zoom-in-left" data-aos-duration="1000">
-      <img src="/img/banner-one.gif" class="img-fluid">
+      <img src="/img/home-banner.gif" class="img-fluid large-width">
       <!-- <img src="/img/aboutgif.mp4" class="img-fluid" alt="Swift Medispark"> -->
     </div>
   </div>
@@ -29,7 +41,7 @@
 <div class="container-fluid mt-2 mb-4">
   <img src="/img/divider.svg" class="bg" alt="Swift Medispark">
 </div>
-<div class="container clients-logo" data-aos="slide-right" data-aos-duration="1000">
+<div class="container clients-logo desktop" data-aos="slide-right" data-aos-duration="1000">
   <div class="row">
     <h2 class="font-weight-bold">Trusted by</h2>
   </div>
@@ -51,15 +63,38 @@
     </div>
   </div>
 </div>
+<!-- mobile view -->
+<div class="container clients-logo mobile" data-aos="slide-right" data-aos-duration="1000">
+  <div class="row">
+    <h2 class="font-weight-bold">Trusted by</h2>
+  </div>
+  <div class="row mt-2">
+    <div class="col-sm-3 col-6 mb-4">
+      <img src="/img/logo/54gene.png" class="img-fluid" alt="Swift Medispark">
+    </div>
+    <div class="col-sm-3 col-6 mb-4">
+      <img src="/img/logo/curacel.png" class="img-fluid" alt="Swift Medispark">
+    </div>
+    <div class="col-sm-3 col-6 mb-4">
+      <img src="/img/logo/cu.png" class="img-fluid" alt="Swift Medispark">
+    </div>
+    <div class="col-sm-3 col-6 mb-4">
+      <img src="/img/logo/leadway.png" class="img-fluid" alt="Swift Medispark">
+    </div>
+    <!-- <div class="col-sm-3 col-6 mb-4">
+      <img src="/img/logo/army.png" class="img-fluid" alt="Swift Medispark">
+    </div> -->
+  </div>
+</div>
 <div class="container-fluid about-section">
   <div class="row" data-aos="slide-left" data-aos-duration="1000">
     <div class="col-md-6 img-about">
-      <img src="/img/about.png" class="img-fluid" alt="Swift Medispark">
+      <img src="/img/about-img.png" class="img-fluid" alt="Swift Medispark">
     </div>
     <div class="col-md-6 text-about">
       <h1 class="font-weight-bolder about-heading">Powering the future of <span class="sub-text">African Healthcare</span></h1>
       <h6 class="pt-3 pb-3 banner-text">Our APIs & SaaS tools facilitate seamless transactions and enable distribution of healthcare services at scale.</h6>
-      <a href="#" class="btn get-started-btn">Get Started</a>
+      <a href="/contact#get-started" class="btn get-started-btn">Get Started</a>
     </div>
   </div>
 </div>
@@ -68,16 +103,16 @@
   <div class="row">
     <div class="col-md-6">
       <div class="tabcontent" id="Relay">
-        <img src="/img/relay-one.png" class="img-fluid" alt="Swift Medispark">
+        <img src="/img/relay-new.png" class="img-fluid" alt="Swift Medispark">
       </div>
       <div class="tabcontent" id="Refill">
-        <img src="/img/refill-one.png" class="img-fluid" alt="Swift Medispark">
+        <img src="/img/refill-new.png" class="img-fluid" alt="Swift Medispark">
       </div>
       <div class="tabcontent" id="Refer">
-        <img src="/img/refer-one.png" class="img-fluid" alt="Swift Medispark">
+        <img src="/img/refer-new.png" class="img-fluid" alt="Swift Medispark">
       </div>
       <div class="tabcontent" id="Recount">
-        <img src="/img/recount-one.png" class="img-fluid" alt="Swift Medispark">
+        <img src="/img/recountt.png" class="img-fluid" alt="Swift Medispark">
       </div>
     </div>
     
@@ -86,7 +121,7 @@
         <button class="tablinks" onclick="openCard(event, 'Relay')" id="defaultOpen">
           <div class="parent">
             <div class="img">
-              <img src="/img/relay-logo.png" class="img-fluid" width="30px" alt="">
+              <img src="/img/logo/relay.png" class="img-fluid" width="30px" alt="">
             </div>
             <div class="product-text">
               <h3 class="heading">Relay</h3>
@@ -97,7 +132,7 @@
         <button class="tablinks" onclick="openCard(event, 'Refill')">
           <div class="parent">
             <div class="img">
-              <img src="/img/refill.png" class="img-fluid" width="18px" alt="">
+              <img src="/img/logo/refill.png" class="img-fluid" width="18px" alt="">
             </div>
             <div class="product-text">
               <h3 class="heading">Refill</h3>
@@ -108,7 +143,7 @@
         <button class="tablinks" onclick="openCard(event, 'Refer')">
           <div class="parent">
             <div class="img">
-              <img src="/img/refer.png" class="img-fluid" width="30px" alt="">
+              <img src="/img/logo/refer.png" class="img-fluid" width="30px" alt="">
             </div>
             <div class="product-text">
               <h3 class="heading">Refer</h3>
@@ -119,7 +154,7 @@
         <button class="tablinks" onclick="openCard(event, 'Recount')">
           <div class="parent animate__animated animate__slideInUp">
             <div class="img">
-              <img src="/img/recount.png" class="img-fluid" width="30px" alt="">
+              <img src="/img/logo/recount.png" class="img-fluid" width="30px" alt="">
             </div>
             <div class="product-text">
               <h3 class="heading">Recount</h3>
@@ -131,29 +166,29 @@
     </div>
   </div>
 </div>
-<div class="container-fluid about-section br-30">
-  <div class="container" data-aos="slide-up" data-aos-duration="1000">
+<div class="container-fluid about-section br-30" data-aos="slide-up" data-aos-duration="1000">
+  <div class="container">
     <h1 class="font-weight-bolder about-heading">How we’ve <span class="sub-text">performed</span> so far</h1>
-    <div class="row pt-5">
-      <div class="col mb-4">
+    <div class="row pt-5 mobile-center">
+      <div class="col-sm-3 col-12 mb-5">
         <img src="/img/transactions.png" class="img-fluid"  width="80px" alt="">
        <!-- <i class="bi bi-coin icons-clients"></i> -->
        <h3 class="icon-text pt-5">1.2M</h3>
        <h6 class="banner-text">Worth of transactions</h6>
       </div>
-      <div class="col mb-4">
+      <div class="col-sm-3 col-12 mb-5">
       <img src="/img/data.png" class="img-fluid"  width="80px" alt="">
        <!-- <i class="bi bi-clipboard-data icons-clients"></i> -->
        <h3 class="icon-text pt-5">680K+</h3>
        <h6 class="banner-text">Units of data processed</h6>
       </div>
-      <div class="col mb-4">
+      <div class="col-sm-3 col-12 mb-5">
       <img src="/img/globe.png" class="img-fluid"  width="160px" alt="">
        <!-- <i class="bi bi-globe icons-clients"></i> -->
        <h3 class="icon-text pt-5">10x</h3>
        <h6 class="banner-text">10x better distribution</h6>
       </div>
-      <div class="col mb-4">
+      <div class="col-sm-3 col-12 mb-5">
       <img src="/img/users.png" class="img-fluid"  width="80px" alt="">
        <!-- <i class="bi bi-people icons-clients"></i> -->
        <h3 class="icon-text pt-5">40,000</h3>
@@ -187,55 +222,60 @@
     </div>
   </div>
 </div>
-<div class="container blog-section">
+<div class="container blog-section desktop">
   <h1 class="font-weight-bolder about-heading" data-aos="slide-right" data-aos-duration="1000">Medispark in the news</h1>
   <div class="row pt-5" data-aos="slide-up" data-aos-duration="1000">
     <div id="carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+      <div class="controller">
+        <a class="left carousel-control pr-3" href="#carousel" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#carousel" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+      </div>
+      
+      <!-- <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
         <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
         <li data-target="#carousel" data-slide-to="2" class="bg-secondary"></li>
-      </ol>
+      </ol> -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row">
-            <div class="col-md-3 mb-3">
+            <div class="col-sm-3 col-12 mb-3">
               <div class="card">
                 <img src="/img/blog-two.png" class="img-fluid" alt="">
                 <div class="card-body">
                   <h6 class="card-title-blog pt-2">How MediSpark is building Africa’s healthcare ecosystem</h6>
                   <p class="card-text pt-2 pb-2">MediSpark is the brainchild of Ugo Nwokoro and Gbenga Oyeniyi....</p>
-                  <a href="#">Read More</a>
+                  <a href="https://disrupt-africa.com/2021/11/29/how-nigerias-medispark-is-piecing-together-an-african-healthcare-ecosystem/" target="_blank">Read More</a>
                 </div>
               </div>
             </div> 
-            <div class="col-md-3 mb-3">
+            <div class="col-sm-3 col-12 mb-3">
               <div class="card">
                 <img src="/img/blog-one.png" class="img-fluid" alt="">
                 <div class="card-body">
                   <h6 class="card-title-blog pt-2">MediSpark joins Aidi Africa’s prestigious accelerator</h6>
                   <p class="card-text pt-2 pb-2">Aidi Africa, an African venture builder run by its portfolio manag...</p>
-                  <a href="#">Read More</a>
+                  <a href="https://techpoint.africa/2021/09/06/aidi-africa-partners-with-aws-to-accelerate-african-businesses/" target="_blank">Read More</a>
                 </div>
               </div>
             </div>  
-            <div class="col-md-3 mb-3">
+            <div class="col-sm-3 col-12 mb-3">
               <div class="card">
                 <img src="/img/blog-three.png" class="img-fluid" alt="">
                 <div class="card-body">
                   <h6 class="card-title-blog pt-2">MediSpark wins 1st prize at KOPETECH awards</h6>
                   <p class="card-text pt-2 pb-2">The maiden edition of KOPETECH, an annual programme for empow...</p>
-                  <a href="#">Read More</a>
+                  <a href="https://guardian.ng/saturday-magazine/empowerment-comes-for-young-tech-entrepreneurs/" target="_blank">Read More</a>
                 </div>
               </div>
             </div>  
-            <div class="col-md-3 mb-3">
+            <div class="col-sm-3 col-12 mb-3">
               <div class="card">
                 <img src="/img/blog-four.png" class="img-fluid" alt="">
                 <div class="card-body">
                   <h6 class="card-title-blog pt-2">MediSpark wins Utopia’s Urban Innovation Challenge</h6>
                   <p class="card-text pt-2 pb-2">Utopia has announced the winners of the first-ever Lagos Urban Inn...</p>
-                  <a href="#">Read More</a>
+                  <a href="https://ventureburn.com/2020/08/winners-of-lagos-urban-innovation-challenge-announced/" target="_blank">Read More</a>
                 </div>
               </div>
             </div>   
@@ -243,67 +283,125 @@
         </div>
         <div class="carousel-item">
           <div class="row">
-            <div class="col-md-3 mb-3">
+            <div class="col-sm-3 col-12 mb-3">
               <div class="card">
-                <img src="/img/blog-two.png" class="img-fluid" alt="">
+                <img src="/img/blog-five.png" class="img-fluid" alt="">
                 <div class="card-body">
-                  <h6 class="card-title-blog pt-2">How MediSpark is building Africa’s healthcare ecosystem</h6>
-                  <p class="card-text pt-2 pb-2">MediSpark is the brainchild of Ugo Nwokoro and Gbenga Oyeniyi....</p>
-                  <a href="#">Read More</a>
+                  <h6 class="card-title-blog pt-2">MediSpark CEO as special guest on Nairametrics show</h6>
+                  <p class="card-text pt-2 pb-2">Business Half Hour (BHH Podcast) is a weekly podcast targeted at...</p>
+                  <a href="https://nairametrics.com/2019/05/13/bhh-podcast-how-technology-can-provide-opportunities-for-small-business-in-the-healthcare-sector-part-2/" target="_blank">Read More</a>
                 </div>
               </div>
             </div> 
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img src="/img/blog-one.png" class="img-fluid" alt="">
-                <div class="card-body">
-                  <h6 class="card-title-blog pt-2">MediSpark joins Aidi Africa’s prestigious accelerator</h6>
-                  <p class="card-text pt-2 pb-2">Aidi Africa, an African venture builder run by its portfolio manag...</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>  
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img src="/img/blog-three.png" class="img-fluid" alt="">
-                <div class="card-body">
-                  <h6 class="card-title-blog pt-2">MediSpark wins 1st prize at KOPETECH awards</h6>
-                  <p class="card-text pt-2 pb-2">The maiden edition of KOPETECH, an annual programme for empow...</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>  
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img src="/img/blog-four.png" class="img-fluid" alt="">
-                <div class="card-body">
-                  <h6 class="card-title-blog pt-2">MediSpark wins Utopia’s Urban Innovation Challenge</h6>
-                  <p class="card-text pt-2 pb-2">Utopia has announced the winners of the first-ever Lagos Urban Inn...</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>   
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<div class="container blog-section mobile">
+  <h1 class="font-weight-bolder about-heading" data-aos="slide-right" data-aos-duration="1000">Medispark in the news</h1>
+  <div class="row pt-5" data-aos="slide-up" data-aos-duration="1000">
+    <div id="mobilecarousel" class="carousel slide" data-ride="carousel">
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="2" class="bg-secondary"></li>
+      </ol> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-two.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">How MediSpark is building Africa’s healthcare ecosystem</h6>
+                  <p class="card-text pt-2 pb-2">MediSpark is the brainchild of Ugo Nwokoro and Gbenga Oyeniyi....</p>
+                  <a href="https://disrupt-africa.com/2021/11/29/how-nigerias-medispark-is-piecing-together-an-african-healthcare-ecosystem/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-one.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark joins Aidi Africa’s prestigious accelerator</h6>
+                  <p class="card-text pt-2 pb-2">Aidi Africa, an African venture builder run by its portfolio manag...</p>
+                  <a href="https://techpoint.africa/2021/09/06/aidi-africa-partners-with-aws-to-accelerate-african-businesses/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-three.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark wins 1st prize at KOPETECH awards</h6>
+                  <p class="card-text pt-2 pb-2">The maiden edition of KOPETECH, an annual programme for empow...</p>
+                  <a href="https://guardian.ng/saturday-magazine/empowerment-comes-for-young-tech-entrepreneurs/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-four.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark wins Utopia’s Urban Innovation Challenge</h6>
+                  <p class="card-text pt-2 pb-2">Utopia has announced the winners of the first-ever Lagos Urban Inn...</p>
+                  <a href="https://ventureburn.com/2020/08/winners-of-lagos-urban-innovation-challenge-announced/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div>     
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-five.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark CEO as special guest on Nairametrics show</h6>
+                  <p class="card-text pt-2 pb-2">Business Half Hour (BHH Podcast) is a weekly podcast targeted at...</p>
+                  <a href="https://nairametrics.com/2019/05/13/bhh-podcast-how-technology-can-provide-opportunities-for-small-business-in-the-healthcare-sector-part-2/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="control-mobile">
+        <a class="left carousel-control pr-3" href="#mobilecarousel" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#mobilecarousel" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container awards-logo" data-aos="slide-right" data-aos-duration="1000">
   <div class="row">
-    <h2 class="font-weight-bold">Certificate and compliance</h2>
+    <h2 class="font-weight-bold">Certificates and compliance</h2>
   </div>
   <div class="row mt-2">
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/hipaa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/nitda.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/gdpr.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
-    <div class="col">
+    <div class="col-sm-3 col-6 mb-4">
       <img src="/img/logo/cohsasa.png" class="img-fluid award-logo" alt="Swift Medispark">
     </div>
   </div>

@@ -6,12 +6,12 @@
       <div class="about-jumbotron">
        <h1 class="font-weight-bolder about-heading">How can we help?</h1>
        <h6 class="spacing banner-text">Looking for tech solutions to grow your healthcare business? Speak<br>to someone at MediSpark today! Let’s start something great.</h6> 
-       <a href="#contact" id="get-started"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
+       <a href="#contact"><i class="bi bi-arrow-down-circle arrow-down"></i></a>
       </div>
     </div>
   </div>
 </div>
-<section class="container contact-section" id="contact">
+<div class="container contact-section" id="contact">
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-6" data-aos="slide-right" data-aos-duration="1000">
@@ -45,31 +45,14 @@
     </div>
     <div class="col-md-4 text-center" data-aos="slide-left" data-aos-duration="1000">
       <div class="form-bg">
-        <h3 class="contact-heading text-muted">Send us a message</h3>
-        <h6 class="banner-text mb-3">We reply to all messages swiftly</h6>
-        <form id="form" method="POST">
-          <input type="hidden" data-form-email="true">
-          <div class="form-group">
-            <input type="text" class="form-control form-control-contact" id="name" name="name" required="" placeholder="Name" data-form-field="Name">
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control form-control-contact" id="email" name="email" required="" placeholder="Email*" data-form-field="Email">
-          </div>
-          <div class="form-group">
-            <input type="tel" class="form-control form-control-contact" id="phone" name="phone" placeholder="Phone" data-form-field="Phone">
-          </div>
-          <div class="form-group">
-            <textarea class="form-control form-control-contact" id="message" name="message" placeholder="What would you like to enquire about?" rows="7" data-form-field="Message"></textarea>
-          </div>
-          <div>
-            <button type="submit" id="submit_button" value="Submit request" class="btn btn-block get-started-btn">Submit</button>
-          </div>
-        </form>
+        <img src="/img/mail-sent.gif" alt="" class="img-fluid">
+        <h3 class="sucess-heading mt-4 mb-2">Thank you !</h3>
+        <h6 class="banner-text">Someone from MediSpark will be in touch soon”</h6>
       </div>
     </div>
     <div class="col-md-1"></div>
   </div>
-</section>
+</div>
 <div class="container-fluid mt-4 mb-4">
   <img src="/img/footer-divider.png" class="bg" alt="Swift Medispark">
 </div>
@@ -77,7 +60,7 @@
 <footer class="text-left text-lg-start text-muted">
   @include('layouts.footer')
 </footer>
-<!-- <script>
+<script>
   $("#push").click (function () {
     var name = $("#name").val();
     var mailer = $("#mailer").val();
@@ -100,7 +83,7 @@
     }
     
   });
-</script> -->
+</script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   // AOS.init();
@@ -126,48 +109,4 @@
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
   });
-</script>
-<script>
-    // We access to the inputs by their id's
-    let email = document.getElementById("email");
-    let message = document.getElementById("message");
-
-    // Error messages
-    let errorElement = document.getElementById("email_error");
-    let errorElementAddress = document.getElementById("message_error");
-
-    // Form
-    let contactForm = document.getElementById("form");
-
-    // Event listener
-    contactForm.addEventListener("submit", function (e) {
-      let messageName = [];
-      let messageAddress = [];
-      
-        if (email.value === "" || email.value === null) {
-        messageName.push("* This field is required");
-      }
-
-      if (message.value === "" || message.value === null) {
-        messageAddress.push("* This field is required");
-      }
-
-      // Statement to shows the errors
-      if (messageName.length || messageAddress.length > 0) {
-        e.preventDefault();
-        errorElement.innerText = messageName;
-        errorElementAddress.innerText = messageAddress;
-      }
-      
-      // if the values length is filled and it's greater than 2 then redirect to this page
-        if (
-        (email.value.length > 2,
-        message.value.length > 2)
-      ) {
-        e.preventDefault();
-        window.location.assign("http://medispark.turtleneckmerch.com//success");
-      }
-
-    });
-
 </script>

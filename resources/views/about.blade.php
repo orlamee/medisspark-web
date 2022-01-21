@@ -13,7 +13,7 @@
 </div>
 <div class="container gallery desktop" id="about" data-aos="slide-up" data-aos-duration="1000">
   <div class="row">
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div id="gallery" class="carousel slide" data-ride="carousel">
       <!-- <div class="controller">
         <a class="left carousel-control pr-3" href="#mycarousel" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
         <a class="right carousel-control" href="#mycarousel" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
@@ -47,8 +47,8 @@
         </div>
       </div>
       <div class="control">
-        <a class="left carousel-control pr-3" href="#mycarousel" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
-        <a class="right carousel-control" href="#mycarousel" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="left carousel-control pr-3" href="#gallery" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#gallery" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@
 
 <div class="container gallery mobile" id="about" data-aos="slide-up" data-aos-duration="1000">
   <div class="row">
-    <div id="carousel" class="carousel slide" data-ride="carousel">
+    <div id="galleria" class="carousel slide" data-ride="carousel">
       <!-- <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
         <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
@@ -113,6 +113,10 @@
           </div>
         </div>
       </div>
+      <div class="control-about">
+        <a class="left carousel-control pr-3" href="#galleria" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#galleria" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+      </div>
     </div>
   </div>
 </div>
@@ -132,6 +136,173 @@
     </div>
   </div>
 </div>
+<div class="container blog-section desktop">
+  <h1 class="font-weight-bolder about-heading" data-aos="slide-right" data-aos-duration="1000">Medispark in the news</h1>
+  <div class="row pt-5" data-aos="slide-up" data-aos-duration="1000">
+    <div id="blog" class="carousel slide" data-ride="carousel">
+      <div class="controller">
+        <a class="left carousel-control pr-3" href="#blog" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#blog" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-two.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">How MediSpark is building Africa’s healthcare ecosystem</h6>
+                  <p class="card-text pt-2 pb-2">MediSpark is the brainchild of Ugo Nwokoro and Gbenga Oyeniyi....</p>
+                  <a href="https://disrupt-africa.com/2021/11/29/how-nigerias-medispark-is-piecing-together-an-african-healthcare-ecosystem/" target="_blank">Read More</a>
+                  <img src="/img/blog-logo-one.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div> 
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-one.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark joins Aidi Africa’s prestigious accelerator</h6>
+                  <p class="card-text pt-2 pb-2">Aidi Africa, an African venture builder run by its portfolio manag...</p>
+                  <a href="https://techpoint.africa/2021/09/06/aidi-africa-partners-with-aws-to-accelerate-african-businesses/" target="_blank">Read More</a>
+                  <img src="/img/tp.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div>  
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-three.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark wins 1st prize at KOPETECH awards</h6>
+                  <p class="card-text pt-2 pb-2">The maiden edition of KOPETECH, an annual programme for empow...</p>
+                  <a href="https://guardian.ng/saturday-magazine/empowerment-comes-for-young-tech-entrepreneurs/" target="_blank">Read More</a>
+                  <img src="/img/theguardian.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div>  
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-four.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark wins Utopia’s Urban Innovation Challenge</h6>
+                  <p class="card-text pt-2 pb-2">Utopia has announced the winners of the first-ever Lagos Urban Inn...</p>
+                  <a href="https://ventureburn.com/2020/08/winners-of-lagos-urban-innovation-challenge-announced/" target="_blank">Read More</a>
+                  <img src="/img/venture.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-five.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark CEO as special guest on Nairametrics show</h6>
+                  <p class="card-text pt-2 pb-2">Business Half Hour (BHH Podcast) is a weekly podcast targeted at...</p>
+                  <a href="https://nairametrics.com/2019/05/13/bhh-podcast-how-technology-can-provide-opportunities-for-small-business-in-the-healthcare-sector-part-2/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container blog-section mobile">
+  <h1 class="font-weight-bolder about-heading" data-aos="slide-right" data-aos-duration="1000">Medispark in the news</h1>
+  <div class="row pt-5" data-aos="slide-up" data-aos-duration="1000">
+    <div id="mobilecarousel" class="carousel slide" data-ride="carousel">
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
+        <li data-target="#carousel" data-slide-to="2" class="bg-secondary"></li>
+      </ol> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-two.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">How MediSpark is building Africa’s healthcare ecosystem</h6>
+                  <p class="card-text pt-2 pb-2">MediSpark is the brainchild of Ugo Nwokoro and Gbenga Oyeniyi....</p>
+                  <a href="https://disrupt-africa.com/2021/11/29/how-nigerias-medispark-is-piecing-together-an-african-healthcare-ecosystem/" target="_blank">Read More</a>
+                  <img src="/img/blog-logo-one.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-one.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark joins Aidi Africa’s prestigious accelerator</h6>
+                  <p class="card-text pt-2 pb-2">Aidi Africa, an African venture builder run by its portfolio manag...</p>
+                  <a href="https://techpoint.africa/2021/09/06/aidi-africa-partners-with-aws-to-accelerate-african-businesses/" target="_blank">Read More</a>
+                  <img src="/img/tp.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-three.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark wins 1st prize at KOPETECH awards</h6>
+                  <p class="card-text pt-2 pb-2">The maiden edition of KOPETECH, an annual programme for empow...</p>
+                  <a href="https://guardian.ng/saturday-magazine/empowerment-comes-for-young-tech-entrepreneurs/" target="_blank">Read More</a>
+                  <img src="/img/theguardian.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-four.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark wins Utopia’s Urban Innovation Challenge</h6>
+                  <p class="card-text pt-2 pb-2">Utopia has announced the winners of the first-ever Lagos Urban Inn...</p>
+                  <a href="https://ventureburn.com/2020/08/winners-of-lagos-urban-innovation-challenge-announced/" target="_blank">Read More</a>
+                  <img src="/img/venture.png"  class="img-fluid float-right" width="110px" alt="">
+                </div>
+              </div>
+            </div>     
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3 col-12 mb-3">
+              <div class="card">
+                <img src="/img/blog-five.png" class="img-fluid" alt="">
+                <div class="card-body">
+                  <h6 class="card-title-blog pt-2">MediSpark CEO as special guest on Nairametrics show</h6>
+                  <p class="card-text pt-2 pb-2">Business Half Hour (BHH Podcast) is a weekly podcast targeted at...</p>
+                  <a href="https://nairametrics.com/2019/05/13/bhh-podcast-how-technology-can-provide-opportunities-for-small-business-in-the-healthcare-sector-part-2/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="control-mobile">
+        <a class="left carousel-control pr-3" href="#mobilecarousel" data-slide="prev"><span><img src="img/left.png" class="img-fluid" width="50" alt=""></span></a>
+        <a class="right carousel-control" href="#mobilecarousel" data-slide="next"><span><img src="img/right.png" class="img-fluid" width="50" alt=""></span></a>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container product-section" data-aos="zoom-in" data-aos-duration="1000">
  <h1 class="font-weight-bolder about-heading">Our Values</h1>
   <div class="row mt-5">
@@ -144,7 +315,7 @@
     <div class="col-md-4">
       <div class="values-two mb-2">
         <h6 class="card-title">Breaking barriers</h6>
-        <p class="banner-text">We understand that speed is your competitive in today’s market. Our products expand your possibilities so you can build the best features in the fastest time.</p>
+        <p class="banner-text">We understand that speed is your competitive advantage in today’s market. Our products expand your possibilities so you can build the best features in the fastest time.</p>
 
       </div>
     </div>
@@ -168,6 +339,8 @@
 <div class="container img-footer" data-aos="zoom-in-left" data-aos-duration="1000">
   <img src="/img/about-footer.png" class="img-fluid" alt="medispark">
 </div>
+
+
 <div class="container awards-logo" data-aos="slide-right" data-aos-duration="1000">
   <div class="row">
     <h2 class="font-weight-bold">Certificates and compliance</h2>

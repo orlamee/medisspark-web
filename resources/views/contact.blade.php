@@ -11,7 +11,7 @@
     </div>
   </div>
 </div>
-<section class="container contact-section" id="contact">
+<div class="container contact-section" id="contact">
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-6" data-aos="slide-right" data-aos-duration="1000">
@@ -39,7 +39,7 @@
       <div class="flex-container spacing-contact">
         <i class="bi bi-calendar3 contact-icon"></i>
         <div class="contact-menu">
-          <a href="https://calendly.com/talktomedispark/makeanenquiry" class="btn get-started-btn colored-btn">Schedule a meeting</a>
+          <a href="https://calendly.com/talktomedispark/makeanenquiry" target="_blank" class="btn get-started-btn colored-btn">Schedule a meeting</a>
         </div>
       </div>
     </div>
@@ -47,60 +47,35 @@
       <div class="form-bg">
         <h3 class="contact-heading text-muted">Send us a message</h3>
         <h6 class="banner-text mb-3">We reply to all messages swiftly</h6>
-        <form id="form" method="POST">
+        <form id="contactform" action="https://formspree.io/f/mdobkyrg" method="POST">
           <input type="hidden" data-form-email="true">
           <div class="form-group">
-            <input type="text" class="form-control form-control-contact" id="name" name="name" required="" placeholder="Name" data-form-field="Name">
+            <input type="text" class="form-control form-control-contact" name="name" placeholder="Name*" data-form-field="Name">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control form-control-contact" id="email" name="email" required="" placeholder="Email*" data-form-field="Email">
+            <input type="email" class="form-control form-control-contact" name="email_address" required="" placeholder="Email*" data-form-field="Email">
           </div>
           <div class="form-group">
-            <input type="tel" class="form-control form-control-contact" id="phone" name="phone" placeholder="Phone" data-form-field="Phone">
+            <input type="tel" class="form-control form-control-contact" name="phone" placeholder="Phone*" data-form-field="Phone">
           </div>
           <div class="form-group">
-            <textarea class="form-control form-control-contact" id="message" name="message" placeholder="What would you like to enquire about?" rows="7" data-form-field="Message"></textarea>
+            <textarea class="form-control form-control-contact" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
           </div>
           <div>
-            <button type="submit" id="submit_button" value="Submit request" class="btn btn-block get-started-btn">Submit</button>
+            <button id="my-form-button" class="btn btn-block get-started-btn">Submit</button>
           </div>
+          <p id="result"></p>
         </form>
       </div>
     </div>
-    <div class="col-md-1"></div>
   </div>
-</section>
+</div>
 <div class="container-fluid mt-4 mb-4">
   <img src="/img/footer-divider.png" class="bg" alt="Swift Medispark">
 </div>
-
 <footer class="text-left text-lg-start text-muted">
   @include('layouts.footer')
 </footer>
-<!-- <script>
-  $("#push").click (function () {
-    var name = $("#name").val();
-    var mailer = $("#mailer").val();
-    var phone = $("#phone").val();
-    var message = $("#message").val();
-    if(mailer == ''){
-      swal({
-        title: "Empty Field!",
-        text: "Please check the missing field(s)",
-        icon: "warning",
-        button: "OK",
-      });
-    } else {
-      swal({
-        title: "Thank you!",
-        text: "Someone from MediSpark will be in touch soon",
-        icon: "success",
-        button: "OK",
-      });
-    }
-    
-  });
-</script> -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   // AOS.init();
@@ -128,46 +103,30 @@
   });
 </script>
 <script>
-    // We access to the inputs by their id's
-    let email = document.getElementById("email");
-    let message = document.getElementById("message");
-
-    // Error messages
-    let errorElement = document.getElementById("email_error");
-    let errorElementAddress = document.getElementById("message_error");
-
-    // Form
-    let contactForm = document.getElementById("form");
-
-    // Event listener
-    contactForm.addEventListener("submit", function (e) {
-      let messageName = [];
-      let messageAddress = [];
-      
-        if (email.value === "" || email.value === null) {
-        messageName.push("* This field is required");
-      }
-
-      if (message.value === "" || message.value === null) {
-        messageAddress.push("* This field is required");
-      }
-
-      // Statement to shows the errors
-      if (messageName.length || messageAddress.length > 0) {
-        e.preventDefault();
-        errorElement.innerText = messageName;
-        errorElementAddress.innerText = messageAddress;
-      }
-      
-      // if the values length is filled and it's greater than 2 then redirect to this page
-        if (
-        (email.value.length > 2,
-        message.value.length > 2)
-      ) {
-        e.preventDefault();
-        window.location.assign("http://medispark.turtleneckmerch.com//success");
-      }
-
-    });
-
+    var form = document.getElementById("contactform");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("result");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        swal({
+          title: "Thank you!",
+          text: "Someone from MediSpark will be in touch soon",
+          icon: "success",
+          button: "OK",
+        });
+        // status.innerHTML = "Thank you! Someone from MediSpark will be in touch soon";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
 </script>
